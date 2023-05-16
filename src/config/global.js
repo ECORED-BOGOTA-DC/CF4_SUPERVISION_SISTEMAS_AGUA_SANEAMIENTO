@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Inspección de sistemas de captación',
+    descripcionCurso:
+      'La importancia de los sistemas de captación y potabilización de agua en torno a garantizar el acceso continuo al suministro de agua potable, aportando a la calidad de vida de las personas, implica no solo el suministro del recurso, sino garantizar el cumplimiento de los parámetros establecidos para su uso en las diferentes actividades de consumo. ',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -12,6 +13,14 @@ export default {
       {
         clases: ['banner-principal-decorativo-2'],
         imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-3'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
+      },
+      {
+        clases: ['banner-principal-decorativo-4'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
     ],
   },
@@ -31,28 +40,83 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Reflexión sobre nuestro papel en el planeta',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
-            hash: 't_1_1',
-          },
-        ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Abastecimiento de agua',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Conceptos asociados al tema de cuenca',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Planes de ordenamiento y manejo de cuencas',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo:
+              'Normatividad y reglamentación del sector de agua potable y saneamiento básico',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Captación de agua',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Conceptos básicos de hidráulica',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Parámetros de calidad del agua',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Aforo de caudal',
+            hash: 't_3_3',
+          },
+          {
+            numero: '3.4',
+            titulo: 'Sistemas de captación',
+            hash: 't_3_4',
+          },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Muestreo y medición',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'Procedimientos de muestreo',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Reporte de eventos',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Registro de información',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -102,32 +166,217 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '2.1 Conceptos asociados al tema de cuenca.',
+      referencia:
+        'Decreto 1640. Presidencia de la República de Colombia. Bogotá: Colombia. 2 de agosto 2012.',
+      tipo: 'Norma',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=49987',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2.2 Planes de ordenamiento y manejo de cuencas.',
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). Política Nacional para la Gestión Integral del Recurso Hídrico. Bogotá, D.C.: Colombia, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. p.124',
+      tipo: 'Libro',
+      link:
+        'https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico',
+    },
+    {
+      tema: '2.2 Planes de ordenamiento y manejo de cuencas.',
+      referencia:
+        'Instituto de hidrología, meteorología y estudios ambientales. (2004). Guía técnico científica para la Ordenación de las cuencas Hidrográficas en Colombia.',
+      tipo: 'Guía',
+      link:
+        'http://corponarino.gov.co/expedientes/documentacion/ayudaa/guiadecuenca2008.pdf',
+    },
+    {
+      tema:
+        '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
+      referencia:
+        'Resolución 0330.Ministerio de Vivienda, Ciudad y Territorio. Bogotá: Colombia. 8 Junio 2017.',
+      tipo: 'Normatividad',
+      link:
+        'https://drive.google.com/file/d/1IjwFAv29GCS91oDODPHGZmLpNSwKVCDq/view?usp=sharing',
+    },
+    {
+      tema:
+        '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3705, Medición de flujo de agua en canal abierto con vertederos de placa fina.',
+      tipo: 'Norma',
+      link:
+        'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-04391?func=full-set-set&set_number=006428&set_entry=000001&format=999',
+    },
+    {
+      tema:
+        '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
+      referencia:
+        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3933. Método estándar para medición del flujo de agua en canal abierto, con canaletas parshall.',
+      tipo: 'Norma',
+      link:
+        'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-22055?func=full-set-set&set_number=006440&set_entry=000001&format=999',
+    },
+    {
+      tema: '3.2 Parámetros de calidad del agua.',
+      referencia:
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (2007). Protocolo para el monitoreo y seguimiento del agua.',
+      tipo: 'Guía',
+      link:
+        'http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf',
+    },
+    {
+      tema: '3.2 Parámetros de calidad del agua.',
+      referencia:
+        'Instituto Nacional de Salud [INS]. (2011). Documentación SIVICAP.',
+      tipo: 'Manual',
+      link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
+    },
+    {
+      tema: '3.3 Aforo de caudal.',
+      referencia:
+        'Ministerio de Vivienda, Ciudad y Territorio. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico - RAS. Título B. ISBN: 978-958-8491-51-6',
+      tipo: 'Norma',
+      link:
+        'https://drive.google.com/file/d/1TXFLUj7uDpy-X0ArOKKFqfXC6jRgMll0/view?usp=sharing',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Aguas combinadas',
+      significado:
+        'aguas compuestas por aguas residuales y aguas pluviales. Resolución 0330 (2017).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Aguas lluvias',
+      significado:
+        'aguas provenientes de la precipitación pluvial. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Almacenamiento',
+      significado:
+        'acción destinada a almacenar un determinado volumen de agua para cubrir los picos horarios y la demanda contra incendios. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Autoridad ambiental',
+      significado:
+        'se consideran como autoridades ambientales competentes, el Ministerio de Ambiente, Vivienda y Desarrollo Territorial, las Corporaciones Autónomas Regionales, Corporaciones de Desarrollo Sostenible, los municipios, distritos o áreas metropolitanas, cuya población urbana fuere igual o superior a un millón de habitantes (1.000.000) y las autoridades ambientales distritales a que refiere la última norma. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Caja de inspección domiciliar',
+      significado:
+        'caja ubicada en el límite de la red pública y privada, que recoge las aguas residuales, lluvias o combinadas provenientes de un inmueble. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Cámara o pozo de inspección',
+      significado:
+        'estructura, de forma usualmente cilíndrica, localizada al inicio o dentro de un tramo de alcantarillado, que permite acceso desde la superficie del terreno para inspección o mantenimiento de los conductos. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Captación',
+      significado:
+        'conjunto de estructuras necesarias para tomar el agua de una fuente de abastecimiento. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Caudal',
+      significado:
+        'cantidad de fluido que pasa por determinado elemento en la unidad de tiempo. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Consumo',
+      significado:
+        'cantidad de agua utilizada por un usuario en un período determinado. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Cuenca hidrográfica',
+      significado:
+        'superficie geográfica que drena hacia un punto determinado. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Parámetro',
+      significado:
+        'es la línea que determina el límite de construcción permitida en una obra. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Planta de tratamiento de agua potable (PTAP)',
+      significado:
+        'conjunto de obras, equipos y materiales necesarios para efectuar los procesos que permitan cumplir con las normas de calidad del agua potable. Resolución 0330 (2017).',
+    },
+    {
+      termino: 'Red de distribución',
+      significado:
+        'conjunto de tuberías, accesorios y estructuras que conducen el agua desde el tanque de almacenamiento o planta de tratamiento hasta los puntos de consumo. Resolución 0330 (2017).',
     },
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Cárdenas, D. y Patiño, F. (2010). Estudios y diseños definitivos del sistema de agua potable de la comunidad de Tutucán, cantón paute, provincia del Azuay. Facultad de ingeniería civil. México.',
+      link: 'https://dspace.ucuenca.edu.ec/bitstream/123456789/725/1/ti853.pdf',
+    },
+    {
+      referencia:
+        'Dourojeanni, Axel. (1993). Evolución de la gestión integral de cuencas en América Latina y el Caribe. Chile.',
       link: '',
+    },
+    {
+      referencia:
+        'García, W. (2019). El sistema complejo de la cuenca hidrográfica. Universidad Nacional de Medellín.',
+      link:
+        'https://vdocuments.pub/sistema-complejo-de-la-cuenca-hidrografica-.html?page=1',
+    },
+    {
+      referencia:
+        'Instituto Colombiano de normas técnicas y certificación [ICONTEC]. (2007). NTC 3705, Medición de flujo de agua en canal abierto con vertederos de placa fina.',
+      link: '',
+    },
+    {
+      referencia:
+        'Instituto Nacional de Salud [INS]. (2011). Documentación SIVICAP.',
+      link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
+    },
+    {
+      referencia:
+        'Jiménez, J. M. (s.f.). Manual para el diseño de Sistemas de agua potable y Alcantarillado sanitario.',
+      link:
+        'https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Desarrollo Económico. (2017). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico. [RAS].',
+      link:
+        'http://www.minvivienda.gov.co/Documents/ViceministerioAgua/010710_ras_titulo_a_.pdf',
+    },
+    {
+      referencia:
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). Política Nacional para la Gestión Integral del Recurso Hídrico. Bogotá, D.C. Colombia: Ministerio de Ambiente, Vivienda y Desarrollo Territorial.p.124.',
+      link:
+        'https://www.minambiente.gov.co/documento-entidad/politica-nacional-para-la-gestion-integral-del-recurso-hidrico/',
+    },
+    {
+      referencia:
+        'Mott, R. (2006). Mecánica de fluidos. Sexta edición. Pearson Education.',
+      link: '',
+    },
+    {
+      referencia:
+        'Nadal R., Eugenio. (1993). Introducción al análisis de la planificación hidrológica. Madrid: MOPT.',
+      link: '',
+    },
+    {
+      referencia:
+        'Territoriocartv. (2011). Video institucional Car Cuencas hidrográficas. [Video]. YouTube',
+      link: 'https://www.youtube.com/watch?v=6vTI_HD36IY&t=1s',
+    },
+    {
+      referencia:
+        'Organización Mundial de la Salud [OMS]. (2011). Guías para la calidad del agua de consumo humano. Cuarta edición.',
+      link:
+        'https://apps.who.int/iris/bitstream/handle/10665/272403/9789243549958-spa.pdf?ua=1',
+    },
+    {
+      referencia:
+        'Sonsón Televisión Oficial. (2018). Planes de ordenación y manejo de cuencas hidrográficas. [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=ZJMiCiXJKQQ',
     },
   ],
   creditos: [
