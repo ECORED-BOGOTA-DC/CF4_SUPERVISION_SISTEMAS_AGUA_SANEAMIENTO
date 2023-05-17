@@ -69,6 +69,11 @@ export default {
   .cont_responsive2
     left: 0 !important
     width: 100% !important
+  .cont_gradiente_gris
+    margin-top: 0
+@media screen and (max-width: 768px)
+  .cont_gradiente_gris
+    margin-top: 0 !important
 .cont_gradiente1, .cont_gradiente1 *
   position: relative
 .cont_gradiente1:before
@@ -95,4 +100,10 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.cont_gradiente_gris
+  position: relative
+  margin-top: -90px
+  background: rgb(222,222,222)
+  background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
+  border-radius: 10px
 </style>
