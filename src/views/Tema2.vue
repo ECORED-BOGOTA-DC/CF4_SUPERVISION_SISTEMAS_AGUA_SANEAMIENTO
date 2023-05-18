@@ -597,4 +597,6 @@ export default {
   background-repeat: no-repeat
   background-size: cover
   background-position: center
+.lista-ol--separador li, .lista-ul--separador li
+  border-bottom: dotted 2px #A6A6A6
 </style>
