@@ -159,7 +159,7 @@
           .p-4.ps-2
             h4(data-aos="fade-up") Importante
             p(data-aos="fade-up") Para ampliar la información consulte Norma Técnicas Colombianas [NTC] 5043, de la calidad de la información geográfica y NTC 4611 sobre medidas de la información geográfica.
-            p(data-aos="fade-up") Debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) ir a ICONTEC y buscar norma #[strong NTC 5043] y #[strong NTC 4611], seleccionar las siguientes respectivamente: #[span(style="color:#3076B6;text-decoration:underline;") NTC 5043:2010] / #[span(style="color:#3076B6;text-decoration:underline;") NTC 4611:2011]
+            p(data-aos="fade-up") Debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) ir a ICONTEC y buscar norma #[strong NTC 5043] y #[strong NTC 4611], seleccionar las siguientes respectivamente: #[span(style="color:#3076B6;text-decoration:underline;word-break:break-all;") NTC 5043:2010] / #[span(style="color:#3076B6;text-decoration:underline;") NTC 4611:2011]
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En el siguiente mapa conceptual, puede observar los tipos de caracterización de una cuenca:
 
@@ -342,10 +342,10 @@
             ul.fa-ul.mt-3.mb-0
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | #[a(style="color:#3076B6;text-decoration:underline;" href="https://docplayer.es/73239143-Norma-tecnica-colombiana-5043.html" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://docplayer.es/73239143-Norma-tecnica-colombiana-5043.html" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | #[a(style="color:#3076B6;text-decoration:underline;" href="https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/NTC%204611%20de%202000-Nov-01.pdf" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/NTC%204611%20de%202000-Nov-01.pdf" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
               li(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
                 | NTC 5661 - Método para catalogación de objetos geográficos
