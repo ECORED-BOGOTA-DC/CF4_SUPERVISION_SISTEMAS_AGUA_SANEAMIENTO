@@ -106,4 +106,10 @@ export default {
   background: rgb(222,222,222)
   background: linear-gradient(180deg, rgba(222,222,222,1) 0%, rgba(255,255,255,1) 50%, rgba(222,222,222,1) 100%)
   border-radius: 10px
+.boton:active *, .boton--sm:active *, .boton:focus *, .boton--sm:focus *, .boton:hover *, .boton--sm:hover *
+  color: #fff !important
+.boton *, .boton--sm *
+  color: #fff !important
+.d-none.d-lg-block.col-lg-5.px-0.banner-principal__img
+  padding-bottom: 0 !important
 </style>

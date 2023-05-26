@@ -28,7 +28,7 @@
 
     .cont_gradiente1
       figure
-        img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up")
+        img(src="@/assets/curso/tema1/3.png" data-aos="zoom-in-up")
 
         
 
