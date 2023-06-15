@@ -110,20 +110,20 @@
             p.mt-4.mb-0(data-aos="fade-up") Recordemos que relacionado a la masa se encuentra el peso. Es así como el peso específico indica la cantidad de peso por unidad de volumen de la sustancia, así:
           .col-lg-3.col-md-4(style="place-self:center;")
             figure.text-center
-              img(src='@/assets/curso/tema3/18.svg' data-aos="fade-left" style="max-width:450px;display:inline;")
+              img(src='@/assets/curso/tema3/18.svg' data-aos="fade-left" style="max-width:200px;display:inline;")
         p.mt-4(data-aos="fade-up") El peso específico se representa por la letra griega #[em y] (gamma), y su unidad son newtons por metro cúbico (N/m3).
         p.mt-4(data-aos="fade-up") Para el caso de la gravedad específica, usaremos como fluido de referencia el agua a 4°C, y puede definirse de dos maneras:
         .row.col-lg-10.m-auto.mt-4
           .text-center.col-lg.mb-4.mb-lg-0(style="place-self:center;")
             p(data-aos="fade-up") Es la razón de la densidad de una sustancia a la densidad del agua a 4°C.
             figure.mt-3.col-10.m-auto.text-center
-              img(src='@/assets/curso/tema3/19.svg' data-aos="fade-up" style="max-width:450px;display:inline;")
+              img(src='@/assets/curso/tema3/19.svg' data-aos="fade-up" style="max-width:200px;display:inline;")
           .col-lg-auto.d-none.d-lg-block
             div.h-100(style="border-right:3px #A6A6A6 dotted;")
           .text-center.col-lg(style="place-self:center;")
             p(data-aos="fade-up") Es la razón del peso específico de una sustancia al peso específico del agua a 4°C.
             figure.mt-3.col-10.m-auto.text-center
-              img(src='@/assets/curso/tema3/20.svg' data-aos="fade-up" style="max-width:450px;display:inline;")
+              img(src='@/assets/curso/tema3/20.svg' data-aos="fade-up" style="max-width:200px;display:inline;")
     
     p.mt-5(data-aos="fade-up") Además de los conceptos básicos tratados anteriormente, es necesario revisar en qué consiste el principio de continuidad, el concepto de altura piezométrica y el principio de Conservación de la energía - Ecuación de Bernoulli. Revíselo a continuación:
 
@@ -397,7 +397,7 @@
           h5(data-aos="fade-up") Vertedero rectangular
           p(data-aos="fade-up") Puede ocupar total o parcialmente el ancho del canal, presentando contracciones laterales que reducen la longitud efectiva de la cresta, y en consecuencia el caudal medido por pérdidas por rozamiento.
           figure.col-10.m-auto.mt-4
-            img(src="@/assets/curso/tema3/41.png" data-aos="zoom-in-up")
+            img(src="@/assets/curso/tema3/41.svg" data-aos="zoom-in-up")
       .col-lg.mb-3.mb-lg-0.p-1
         .h-100.p-4.d-flex.flex-wrap(style="background-color:#FFF4E9;align-content: space-between;")
           h5(data-aos="fade-up") Vertedero trapezoidal #[br] (Cipolletti)

@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-bogota-dc.github.io/CF4_SUPERVISION_SISTEMAS_AGUA_SANEAMIENTO](https://ecored-bogota-dc.github.io/CF4_SUPERVISION_SISTEMAS_AGUA_SANEAMIENTO)
 
 #
 
