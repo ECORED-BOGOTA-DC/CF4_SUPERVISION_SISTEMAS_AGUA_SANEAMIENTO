@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 1
       h1 Reflexión sobre nuestro papel en el planeta
@@ -13,8 +13,8 @@
         .cajon.color-acento-botones.p-4.mt-4(style="background-color:#98D8D7;")
           p.mb-0(data-aos="fade-up") Como resultado de las problemáticas mencionadas, es posible la materialización de riesgos como interrupciones en el suministro de agua y enfermedad de los usuarios causadas generalmente por la exposición a agentes contaminantes de carácter microbiológico.
       .col-lg-4(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema1/1.png" data-aos="fade-left")
+        figure.text-center
+          img(src="@/assets/curso/tema1/1.png" data-aos="fade-left" style="max-width:450px;display:inline;")
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") Puede ampliar la información, lo invitamos a ver el siguiente video:
 

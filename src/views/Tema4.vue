@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span 4
       h1 Muestreo y medición
@@ -48,8 +48,8 @@
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | Provisionales.
       .col-lg-4(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left")
+        figure.text-center
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left" style="max-width:450px;display:inline;")
     
     .cajon.color-secundario.p-4.cajon1.mt-5(style="background-color:#F6F6F6;")
       p.mb-0(data-aos="fade-up") De acuerdo con el INS (2011), en esta resolución se establece el número mínimo de puntos de muestreo, de acuerdo con la población atendida (habitantes) por persona prestadora por municipio, para efectos del control y vigilancia de la calidad del agua para consumo humano y cómo se deben identificar esos puntos de muestreo de manera concertada, a través de un acta suscrita entre la Persona Prestadora y la Autoridad Sanitaria competente (p.27).
@@ -99,8 +99,8 @@
     
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/5.png" data-aos="fade-right")
+        figure.text-center
+          img(src="@/assets/curso/tema4/5.png" data-aos="fade-right" style="max-width:450px;display:inline;")
       .col-lg-1
       .col-lg-7(style="place-self:center;")
         .p-4.cont_arrow2.pt-5.pb-5(style="background-color:#EDEDED;border-radius:7px;position:relative")
@@ -114,7 +114,7 @@
 
     .col-lg-10.mt-5.m-auto
       .row
-        .col-lg.p-0
+        .col-lg.p-0.mb-4.mb-lg-0
           .h-100.p-4(style="background-color:#B6CFE5;border-radius:10px 0px 0px 10px;")
             figure.text-center
               img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
@@ -131,8 +131,8 @@
 
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/8.png" data-aos="fade-right")
+        figure.text-center
+          img(src="@/assets/curso/tema4/8.png" data-aos="fade-right" style="max-width:450px;display:inline;")
       .col-lg-8(style="place-self:center;")
         LineaTiempoD.color-acento-contenido
           p(numero="1" titulo="Testigo") Solución de concentración conocida de la especie química a analizar, preparada en el laboratorio con agua grado reactivo; su función es soportar y hacer seguimiento de las condiciones de transporte, preservación y almacenamiento de las muestras.
@@ -148,15 +148,15 @@
         p(data-aos="fade-up") Aunque la recolección de la muestra parece sencilla, siempre pueden existir errores procedimentales, por eso se aconseja, de acuerdo al INS, el siguiente orden procedimental para la toma del muestreo:
         p.mt-4.fw-bold(data-aos="fade-up") Indicaciones previas:
         ul.lista-ul--separador.mb-0.mt-3
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             |  Recolectar en el recipiente una muestra representativa del sistema de suministro de agua (cantidad sea suficiente para los análisis), escoger el recipiente adecuado dependiendo del análisis (vidrio o plástico) y realizar previa limpieza.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | La concentración de las sustancias que se van a determinar no debe modificarse entre la toma y el análisis.
       .col-lg-5(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left")
+        figure.text-center
+          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" style="max-width:450px;display:inline;")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") A continuación, se presentan los pasos a abordar para realizar la toma de muestras:
 
@@ -196,8 +196,8 @@
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
                 | Desinfectar los puntos de toma, con un paño limpio, empapado de solución hipoclorito de sodio o calcio, según recomendaciones de la norma, o se puede usar temperatura si el dispensador de agua es metálico y drenar el agua por lo menos 1 a 2 minutos.
           .col-lg-4(style="place-self:center;")
-            figure
-              img(src='@/assets/curso/tema4/10.png')
+            figure.text-center
+              img(src='@/assets/curso/tema4/10.png' style="max-width:450px;display:inline;")
       .py-3.py-md-4(titulo="Al arribar al punto de la muestra")
         .row.p-4
           p Arribar al punto de toma según ruta, previo a la hora programada y revisar el tipo, protección, mantenimiento y cuidado del sitio y dispositivo de toma de muestra que realice la persona prestadora. Tener presente si hay mantenimiento (contra la intemperie, vándalos o deterioro normal), dependiendo de si el dispositivo de toma está a ras, sobre o a media altura del piso (INSE, 2011, p.49).
@@ -230,8 +230,8 @@
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
                 | Entregar al laboratorio, como parte de la cadena de custodia, el acta de toma de muestra, las muestras tomadas y terminar el proceso con firma de recibido por parte del laboratorio.
           .col-lg-4(style="place-self:center;")
-            figure
-              img(src='@/assets/curso/tema4/11.png')
+            figure.text-center
+              img(src='@/assets/curso/tema4/11.png' style="max-width:450px;display:inline;")
     
     Separador.mt-5
 
@@ -257,59 +257,59 @@
 
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        ul.lista-ul--separador.mb-0
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+        ul.fa-ul.mb-0
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Localización:] sitio del muestreo que responde a las preguntas ¿cuándo? ¿dónde? ¿cómo?, tomar la muestra.
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Procedimientos:] método de muestreo, frecuencia, cantidad y calidad.
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Equipo de muestreo:] condiciones experimentales, mantenimiento y calibración según análisis a realizar.
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Recipientes de muestreo:] clase, capacidad, identificación y almacenamiento.
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Preservación de la muestra:] manejo antes de la medición.
-          li(data-aos="fade-up")
-            i.fas.fa-check-circle(style="color:#FFA031;")
+          li.mb-2.pb-2(data-aos="fade-up" style="border-bottom:2px #A6A6A6 dotted;")
+            i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | #[strong Cadena de custodia:] requisitos de identificación, etiquetado, rotulado e información de la muestra (p.34).
       .col-lg-4(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left")
+        figure.text-center
+          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left" style="max-width:450px;display:inline;")
     
     p.mt-5(Data-aos="fade-up") En cuanto a otros registros durante el proceso de muestreo, se refiere a aquellas observaciones que pueden ser útiles para interpretar los resultados dentro de los cuales se encuentra:
 
     .row.mt-4
-      .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block(style="place-self:center;")
+        figure.text-center
+          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-right" style="max-width:450px;display:inline;")
       .col-lg-8(style="place-self:center;")
         ul.lista-ul--separador.mb-0
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Nombre y ubicación del sitio.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Latitud, longitud y altitud del sitio.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Fecha y hora de toma de muestra.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Condiciones del tiempo en el momento de tomar la muestra y recientes como si lloviera en el sector antes de la muestra.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Condiciones del sitio: si se ve contaminado, hay peces o plantas, algas entre otros.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Color y olor del agua.
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Claridad del agua (turbia o lodosa).
-          li(data-aos="fade-up")
+          li.d-flex(data-aos="fade-up")
             i.fas.fa-check-circle(style="color:#FFA031;")
             | Cualquier otra que sea significativa (INS, 2011, p. 34-35).
     

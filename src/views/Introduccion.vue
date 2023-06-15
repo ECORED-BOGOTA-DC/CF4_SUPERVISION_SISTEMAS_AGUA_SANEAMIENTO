@@ -2,7 +2,7 @@
 .curso-main-container.introduccion
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="fade-right")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -10,8 +10,8 @@
     
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
-        figure
-          img(src="@/assets/curso/intro1.png" data-aos="fade-right")
+        figure.text-center
+          img(src="@/assets/curso/intro1.png" data-aos="fade-right" style="max-width:450px;display:inline;")
       .col-lg-1
       .col-lg-7(style="place-self:center;")
         .p-4.cont_arrow1(style="background-color:#EAF4FB;border-radius:7px;position:relative")

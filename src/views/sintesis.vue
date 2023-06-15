@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 A manera de síntesis puede revisar el siguiente mapa conceptual que muestra los sistemas de inspección para la captación de agua: 
+    p.mb-5(data-aos="fade-up") A manera de síntesis puede revisar el siguiente mapa conceptual que muestra los sistemas de inspección para la captación de agua: 
 
     .row.justify-content-center
       .col-lg-10.mb-5
