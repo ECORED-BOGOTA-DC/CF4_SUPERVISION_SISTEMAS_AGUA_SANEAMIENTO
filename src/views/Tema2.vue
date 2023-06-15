@@ -296,7 +296,7 @@
             .anexo__texto
               p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico-científica para la ordenación y manejo de cuencas.]
         .col-lg-6
-          a.anexo.bg-white.h-100(href="http://corponarino.gov.co/expedientes/documentacion/ayudaa/guiadecuenca2008.pdf" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
+          a.anexo.bg-white.h-100(href="https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg")
             .anexo__texto
@@ -348,7 +348,7 @@
                 | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/NTC%204611%20de%202000-Nov-01.pdf" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
               li(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | NTC 5661 - Método para catalogación de objetos geográficos
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://docplayer.es/148459267-Norma-tecnica-colombiana-5661.html" target="_blank") NTC 5661 - Método para catalogación de objetos geográficos]
     
     Separador.mt-5
 
