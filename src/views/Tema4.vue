@@ -49,7 +49,7 @@
             | Provisionales.
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/1.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     .cajon.color-secundario.p-4.cajon1.mt-5(style="background-color:#F6F6F6;")
       p.mb-0(data-aos="fade-up") De acuerdo con el INS (2011), en esta resolución se establece el número mínimo de puntos de muestreo, de acuerdo con la población atendida (habitantes) por persona prestadora por municipio, para efectos del control y vigilancia de la calidad del agua para consumo humano y cómo se deben identificar esos puntos de muestreo de manera concertada, a través de un acta suscrita entre la Persona Prestadora y la Autoridad Sanitaria competente (p.27).
@@ -60,7 +60,7 @@
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
         .col-auto.p-0.d-flex.align-items-center
           figure
-            img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;")
+            img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;" alt="Imagen decorativa")
         .col.p-0.pe-3
           .p-4.ps-2
             h4(data-aos="fade-up") Importante
@@ -78,19 +78,19 @@
       .col-lg.mb-5.mb-lg-0
         .h-100.p-4.pt-0(style="background-color:#FFA031;border-radius:10px;")
           figure.text-center
-            img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;")
+            img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;" alt="Imagen decorativa")
           h4.text-center.mt-4(data-aos="fade-up") Muestreo Manual
           p.mt-3(data-aos="fade-up") Se realizan cuando se tienen sitios de fácil acceso. Permite al encargado tomar la muestra, observar los cambios en las características del agua en cuanto a sustancias flotanes, color, olor, aumento o disminución de caudad, entre otros.
       .col-lg.mb-5.mb-lg-0.mt-4.mt-lg-0
         .h-100.p-4.pt-0(style="background-color:#4DB1F0;border-radius:10px;")
           figure.text-center
-            img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;")
+            img(src="@/assets/curso/tema4/3.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;" alt="Imagen decorativa")
           h4.text-center.mt-4(data-aos="fade-up") Muestreo automático
           p.mt-3(data-aos="fade-up") Para sitios con difícil acceso, tiene como ventaja más precisión en la toma de muestras. Pero, a su vez, es más complejo el montaje y precisión.
       .col-lg.mb-5.mb-lg-0.mt-4.mt-lg-0
         .h-100.p-4.pt-0(style="background-color:#FFA031;border-radius:10px;")
           figure.text-center
-            img(src="@/assets/curso/tema4/4.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;")
+            img(src="@/assets/curso/tema4/4.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;" alt="Imagen decorativa")
           h4.text-center.mt-4(data-aos="fade-up") Muestreo mixto
           p.mt-3(data-aos="fade-up") Involucra a los dos tipos de muestreo anteriores y permite la verificación manual de los resultados obtenidos  de forma automática.
     
@@ -100,7 +100,7 @@
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/5.png" data-aos="fade-right" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/5.png" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-7(style="place-self:center;")
         .p-4.cont_arrow2.pt-5.pb-5(style="background-color:#EDEDED;border-radius:7px;position:relative")
@@ -117,13 +117,13 @@
         .col-lg.p-0.mb-4.mb-lg-0
           .h-100.p-4(style="background-color:#B6CFE5;border-radius:10px 0px 0px 10px;")
             figure.text-center
-              img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+              img(src="@/assets/curso/tema4/6.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
             h4.mt-4.text-center(data-aos="fade-up") Reacciones químicas o biológicas
             p.mt-4.mb-0(data-aos="fade-up") Temperatura, su exposición a la luz, la naturaleza del recipiente en el cual se coloca, el tiempo entre el muestreo y el análisis, las condiciones a las cuales se somete (agitación o reposo durante el transporte), etc., (p.31).
         .col-lg.p-0
           .h-100.p-4(style="background-color:#C1E4FA;border-radius:0px 10px 10px 0px;")
             figure.text-center
-              img(src="@/assets/curso/tema4/7.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;")
+              img(src="@/assets/curso/tema4/7.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;" alt="Imagen decorativa")
             h4.mt-4.text-center(data-aos="fade-up") Reacciones físicas
             p.mt-4.mb-0(data-aos="fade-up") El tipo de agua, la velocidad de la toma, el transporte, el almacenamiento o preservación de la muestra.
     
@@ -132,7 +132,7 @@
     .row.mt-5
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/8.png" data-aos="fade-right" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/8.png" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         LineaTiempoD.color-acento-contenido
           p(numero="1" titulo="Testigo") Solución de concentración conocida de la especie química a analizar, preparada en el laboratorio con agua grado reactivo; su función es soportar y hacer seguimiento de las condiciones de transporte, preservación y almacenamiento de las muestras.
@@ -156,7 +156,7 @@
             | La concentración de las sustancias que se van a determinar no debe modificarse entre la toma y el análisis.
       .col-lg-5(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/9.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") A continuación, se presentan los pasos a abordar para realizar la toma de muestras:
 
@@ -197,7 +197,7 @@
                 | Desinfectar los puntos de toma, con un paño limpio, empapado de solución hipoclorito de sodio o calcio, según recomendaciones de la norma, o se puede usar temperatura si el dispensador de agua es metálico y drenar el agua por lo menos 1 a 2 minutos.
           .col-lg-4(style="place-self:center;")
             figure.text-center
-              img(src='@/assets/curso/tema4/10.png' style="max-width:450px;display:inline;")
+              img(src='@/assets/curso/tema4/10.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Al arribar al punto de la muestra")
         .row.p-4
           p Arribar al punto de toma según ruta, previo a la hora programada y revisar el tipo, protección, mantenimiento y cuidado del sitio y dispositivo de toma de muestra que realice la persona prestadora. Tener presente si hay mantenimiento (contra la intemperie, vándalos o deterioro normal), dependiendo de si el dispositivo de toma está a ras, sobre o a media altura del piso (INSE, 2011, p.49).
@@ -231,7 +231,7 @@
                 | Entregar al laboratorio, como parte de la cadena de custodia, el acta de toma de muestra, las muestras tomadas y terminar el proceso con firma de recibido por parte del laboratorio.
           .col-lg-4(style="place-self:center;")
             figure.text-center
-              img(src='@/assets/curso/tema4/11.png' style="max-width:450px;display:inline;")
+              img(src='@/assets/curso/tema4/11.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     Separador.mt-5
 
@@ -278,14 +278,14 @@
             | #[strong Cadena de custodia:] requisitos de identificación, etiquetado, rotulado e información de la muestra (p.34).
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     p.mt-5(Data-aos="fade-up") En cuanto a otros registros durante el proceso de muestreo, se refiere a aquellas observaciones que pueden ser útiles para interpretar los resultados dentro de los cuales se encuentra:
 
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-block(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-right" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema4/13.svg" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
         ul.lista-ul--separador.mb-0
           li.d-flex(data-aos="fade-up")

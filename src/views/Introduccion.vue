@@ -11,7 +11,7 @@
     .row
       .col-lg-4.mb-4.mb-lg-0(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/intro1.png" data-aos="fade-right" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/intro1.png" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-1
       .col-lg-7(style="place-self:center;")
         .p-4.cont_arrow1(style="background-color:#EAF4FB;border-radius:7px;position:relative")
