@@ -23,7 +23,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema2/2.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 … el conjunto de instalaciones que conducen el agua desde su captación en la fuente de abastecimiento hasta la acometida domiciliaria en el punto de empate con la instalación interna del predio a servir y comprende los siguientes componentes: la(s) fuente(s) de abastecimiento, la(s) captación(es) de agua superficial y/o agua subterránea y sus anexidades, la(s) aducción(es) y conducción(es), las redes de distribución, las estaciones de bombeo y los tanques de compensación (p.43).
+          p.mb-0 "el conjunto de instalaciones que conducen el agua desde su captación en la fuente de abastecimiento hasta la acometida domiciliaria en el punto de empate con la instalación interna del predio a servir y comprende los siguientes componentes: la(s) fuente(s) de abastecimiento, la(s) captación(es) de agua superficial y/o agua subterránea y sus anexidades, la(s) aducción(es) y conducción(es), las redes de distribución, las estaciones de bombeo y los tanques de compensación" (p.43).
       .cajon.color-secundario.p-4.mt-4.cajon1(style="background-color:#F7F8FB;")
         p.mb-0(data-aos="fade-up") Con base en lo anterior, se puede inferir que el término abastecimiento de agua hace referencia a todo sistema que se construye para garantizar el suministro de agua potable para consumo humano.
     
@@ -34,13 +34,13 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/4.svg' data-aos="zoom-in-up" alt="Cuencas hidrográficas")
+              img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" alt="Cuencas hidrográficas")
           .tarjeta.color-acento-botones.p-3(x="60%" y="30%" numero="1" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 1. Abastecimiento de agua
             p.mb-0(style="color:#000;") El abastecimiento de agua es un pilar de desarrollo para los países, porque garantizar el acceso y la calidad de este recurso, se traduce en mejoramiento de la calidad de vida, salud y progreso de la población.
           .tarjeta.color-acento-botones.p-3(x="37%" y="63%" numero="2" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 2. Cuencas
-            p.mb-0(style="color:#000;") Se reconoce a la cuenca como “una unidad de territorio donde las aguas fluyen naturalmente, conformando un sistema interconectado, en el cual interactúan aspectos biofísicos, socioeconómicos y culturales (Instituto de Hidrología, Meteorología y Estudios Ambientales Ideam (2004).
+            p.mb-0(style="color:#000;") Se reconoce a la cuenca como “una unidad de territorio donde las aguas fluyen naturalmente, conformando un sistema interconectado, en el cual interactúan aspectos biofísicos, socioeconómicos y culturales" (Instituto de Hidrología, Meteorología y Estudios Ambientales Ideam, 2004).
           .tarjeta.color-acento-botones.p-3(x="54%" y="56%" numero="3" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 3. Áreas hidrográficas o macrocuencas
             p.mb-0(style="color:#000;") Definir las áreas hidrográficas permite no solo procesos de gestión, sino, a su vez, de control más eficientes para el país.  En Colombia se encuentran cinco (5), las cuales son: Magdalena-Cauca, Orinoco, Amazonas, Caribe y Pacífico.
@@ -49,7 +49,7 @@
             p.mb-0(style="color:#000;") Corresponden a las definidas en el mapa de zonificación hidrográfica de Colombia, las cuales son el espacio para monitorear el estado del recurso hídrico y el impacto que sobre este tienen las acciones desarrolladas en el marco de la política nacional para la gestión integral del recurso hídrico.
           .tarjeta.color-acento-botones.p-3(x="21%" y="58%" numero="5" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 5. Microcuenca y acuíferos
-            p.mb-0(style="color:#000;") Las microcuencas o unidades básicas serán el elemento integrador de la gestión y sobre las cuales se focalizarán las acciones. La ejecución de ellas responderá a una actuación local, orientada con una visión global y serán objeto de planes de manejo ambiental Ideam (2008).
+            p.mb-0(style="color:#000;") Las microcuencas o unidades básicas serán el elemento integrador de la gestión y sobre las cuales se focalizarán las acciones. La ejecución de ellas responderá a una actuación local, orientada con una visión global y serán objeto de planes de manejo ambiental (Ideam, 2008).
     
     Separador.mt-5
 
@@ -85,7 +85,7 @@
 
     p.mt-5.fw-bold(data-aos="fade-up") Teniendo en cuenta lo anteriormente descrito, según García (s.f.), las cuencas hidrográficas se interrelacionan con sus componentes elementales de la siguiente forma:
 
-    .col-lg-8.m-auto.mt-5
+    .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
         h5.d-block Figura 1
         span Componentes de un sistema de cuenca hidrográfica
@@ -111,7 +111,7 @@
             img(src="@/assets/curso/tema2/10.png" alt="Áreas hidrográficas o macrocuencas")
             .cont_image1__description.p-3
               h5.mb-5 Áreas hidrográficas o macrocuencas
-              p.mb-0 De estas zonas se debe mantener información documentada de recursos naturales renovables, y en especial, de los cauces principales de los ríos, haciendo énfasis en la calidad, cantidad y regularidad de las fuentes hídricas. Los planes estratégicos se formularán a escala 1: 500.000.
+              p.mb-0(style="font-size:13px;") De estas zonas se debe mantener información documentada de recursos naturales renovables, y en especial, de los cauces principales de los ríos, haciendo énfasis en la calidad, cantidad y regularidad de las fuentes hídricas. Los planes estratégicos se formularán a escala 1: 500.000.
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
@@ -119,21 +119,21 @@
             img(src="@/assets/curso/tema2/11.png" alt="Zonas hidrográficas")
             .cont_image1__description.p-3.cont_image2__description
               h5.mb-5 Zonas hidrográficas
-              p.mb-0 Es importante aclarar que el instrumento de planificación de las zonas hidrográficas en el país es el denominado Programa nacional de monitoreo del recurso hídrico, en el cual se encuentran todas las acciones planeadas, a realizar en las cuencas hidrográficas (Olaya, E. y Tosse, L., 2014. p.16).
+              p.mb-0(style="font-size:13px;") Es importante aclarar que el instrumento de planificación de las zonas hidrográficas en el país es el denominado Programa nacional de monitoreo del recurso hídrico, en el cual se encuentran todas las acciones planeadas, a realizar en las cuencas hidrográficas (Olaya, E. y Tosse, L., 2014. p.16).
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
             img(src="@/assets/curso/tema2/12.png" alt="Cuencas")
             .cont_image1__description.p-3
               h5.mb-5 Cuencas
-              p.mb-0 Las cuencas tributarias de zonas o regiones hidrológicas serán el objeto de la formulación, implementación y ejecución de los Planes de Ordenación y Manejo de cuencas (POMCA). 
+              p.mb-0(style="font-size:13px;") Las cuencas tributarias de zonas o regiones hidrológicas serán el objeto de la formulación, implementación y ejecución de los Planes de Ordenación y Manejo de cuencas (POMCA). 
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
             img(src="@/assets/curso/tema2/13.png" alt="Microcuenca y acuíferos")
             .cont_image1__description.p-3.cont_image2__description
               h5.mb-5 Microcuenca y acuíferos
-              p.mb-0 Las microcuencas son de vital importancia para el desarrollo de comunidades, pueblos y por ende del país. Su deterioro por su mal manejo, es cada día mayor.
+              p.mb-0(style="font-size:13px;") Las microcuencas son de vital importancia para el desarrollo de comunidades, pueblos y por ende del país. Su deterioro por su mal manejo, es cada día mayor.
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:400px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Caracterización de las cuencas
@@ -147,10 +147,10 @@
         figure.text-center
           img(src="@/assets/curso/tema2/14.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
-    p.mt-5(data-aos="fade-up") La cartografía base es la información digital contenida en una base de datos geográfica o geodatabases, escala 1:25.000 para el caso de las macrocuencas de la Orinoquia, Amazonas y Pacifico (también se puede usar escala 1:100.000); esta debe contener varias capas como: edificaciones, obras civiles, vías de transporte, centros poblados, hidrografía compuesta de drenajes sencillos, dobles y cuerpos de agua, el relieve compuesto por curvas de nivel, entre otros (Olaya, E. y Tosse, L., 2014).
-    p.mt-4(data-aos="fade-up") Estos elementos cartográficos deben cumplir con las normas técnicas colombianas [NTC] 5043 de la calidad de la información geográfica y NTC 4611 sobre medidas de la información geográfica. Lo invitamos a consultarla en la base de datos del SENA.
+    p.mt-5(data-aos="fade-up") La cartografía base es la información digital contenida en una base de datos geográfica o geodatabases, escala 1:25.000 para el caso de las macrocuencas de la Orinoquia, Amazonas y Pacífico (también se puede usar escala 1:100.000); esta debe contener varias capas como: edificaciones, obras civiles, vías de transporte, centros poblados, hidrografía compuesta de drenajes sencillos, dobles y cuerpos de agua, el relieve compuesto por curvas de nivel, entre otros (Olaya, E. y Tosse, L., 2014).
+    p.mt-4(data-aos="fade-up") Estos elementos cartográficos deben cumplir con las Normas Técnicas Colombianas [NTC] 5043 de la calidad de la información geográfica y NTC 4611 sobre medidas de la información geográfica. Lo invitamos a consultarla en la base de datos del SENA.
 
-    .col-lg-10.m-auto.mt-5
+    .col-lg-10.m-auto.mt-5.col-10
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
         .col-auto.p-0.d-flex.align-items-center
           figure
@@ -159,7 +159,7 @@
           .p-4.ps-2
             h4(data-aos="fade-up") Importante
             p(data-aos="fade-up") Para ampliar la información consulte Norma Técnicas Colombianas [NTC] 5043, de la calidad de la información geográfica y NTC 4611 sobre medidas de la información geográfica.
-            p(data-aos="fade-up") Debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) ir a ICONTEC y buscar norma #[strong NTC 5043] y #[strong NTC 4611], seleccionar las siguientes respectivamente: #[span(style="color:#3076B6;text-decoration:underline;word-break:break-all;") NTC 5043:2010] / #[span(style="color:#3076B6;text-decoration:underline;") NTC 4611:2011]
+            p(data-aos="fade-up") Debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;word-break:break-word;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) ir a ICONTEC y buscar norma #[strong NTC 5043] y #[strong NTC 4611], seleccionar las siguientes respectivamente: #[a(style="color:#3076B6;" href="https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=4238" target="_blank") NTC 5043:2010] /  #[a(style="color:#3076B6;word-break:break-word;" href="https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=3729" target="_blank") NTC 4611:2011]
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En el siguiente mapa conceptual, puede observar los tipos de caracterización de una cuenca:
 
@@ -176,7 +176,7 @@
         figure.text-center
           img(src="@/assets/curso/tema2/17.png" data-aos="fade-right" style="z-index:2;position:relative;max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-9.cont_2_2.pt-5.pb-5.p-4(style="place-self:center;")
-        p.mb-0(data-aos="fade-up") Para Olaya, E. y Tosse, L. (2014), los POMCA, son: #[br] instrumentos propicios para que tanto en su formulación e implementación, se construyan escenarios que permitan el desarrollo de la gobernanza del agua, donde se reflejen los acuerdos y compromisos entre el poder público, la sociedad civil, las comunidades étnicas y los sectores económicos (p.12).
+        p.mb-0(data-aos="fade-up") Para Olaya, E. y Tosse, L. (2014), los POMCA, son: #[br] Instrumentos propicios para que tanto en su formulación e implementación, se construyan escenarios que permitan el desarrollo de la gobernanza del agua, donde se reflejen los acuerdos y compromisos entre el poder público, la sociedad civil, las comunidades étnicas y los sectores económicos (p.12).
     
     .col-lg-10.mt-5.m-auto
       .row
@@ -192,7 +192,7 @@
       .col-lg-10.m-auto
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ZJMiCiXJKQQ" title="PLANES DE ORDENACIÓN Y MANEJO DE CUENCAS HIDROGRÁFICAS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:400px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Antecedentes normativos
@@ -214,7 +214,7 @@
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             p(data-aos="fade-up") Nace el Instituto Nacional de los Recursos Naturales Renovables y del Ambiente [INDERENA], para adelantar labores de ordenación de cuencas hidrográficas y promoción de su desarrollo integral (IDEAM, 2008, p.8).
             p.mt-4(data-aos="fade-up") Se expide el Código Nacional de Recursos Naturales Renovables y de Protección al Medio Ambiente (Decreto - Ley 2811 de 1974), que  planifica ambientalmente el territorio, para regular  y manejar los recursos suelo, aire, fauna, flora y el agua, entre otros, en el territorio colombiano. 
-            p.mt-4(data-aos="fade-up") Este instrumento marca el inicio de las directrices, que orientan la administración del recurso hídrico en el país. Define la cuenca hidrográfica como un “área de manejo especial.
+            p.mt-4(data-aos="fade-up") Este instrumento marca el inicio de las directrices, que orientan la administración del recurso hídrico en el país. Define la cuenca hidrográfica como un “área de manejo especial".
           .col-lg-3(style="place-self:center;")
             figure.text-center
               img(src='@/assets/curso/tema2/20.png' data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -223,7 +223,7 @@
             figure.text-center
               img(src='@/assets/curso/tema2/21.png' data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
-            p(data-aos="fade-up") Con la expedición de la Ley 99 de 1993, se crea el Ministerio de Medio Ambiente como organismo rector de la gestión del medio ambiente y de los recursos naturales renovables. Se establecen lineamientos para fortalecer el Sistema Nacional Ambiental. Se fijan pautas para ordenamiento y manejo de cuencas hidrográficas y demás áreas de manejo especial. Se  establece la competencia a las Corporaciones Autónomas Regionales y de Desarrollo Sostenible en la ordenación y manejo de las cuencas hidrográficas ubicadas en el área de su jurisdicción. Olaya, E. y Tosse, L. (2014, p.13).
+            p(data-aos="fade-up") Con la expedición de la Ley 99 de 1993, se crea el Ministerio de Medio Ambiente como organismo rector de la gestión del medio ambiente y de los recursos naturales renovables. Se establecen lineamientos para fortalecer el Sistema Nacional Ambiental. Se fijan pautas para ordenamiento y manejo de cuencas hidrográficas y demás áreas de manejo especial. Se  establece la competencia a las Corporaciones Autónomas Regionales y de Desarrollo Sostenible en la ordenación y manejo de las cuencas hidrográficas ubicadas en el área de su jurisdicción (Olaya, E. y Tosse, L, 2014, p.13).
         .row(titulo="Entre 1994" subtitulo="a 2002")
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             p(data-aos="fade-up") Se expide la ley 165 de 1994, aprobando el convenio sobre la diversidad biológica; promueve la formulación de planes y programas de conservación y utilización sostenible de la diversidad biológica.
@@ -237,11 +237,11 @@
               img(src='@/assets/curso/tema2/23.png' data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
           .col-lg-9(style="place-self:center;")
             p(data-aos="fade-up") En 2010, el Ministerio de Ambiente, Vivienda y Desarrollo Territorial (hoy Ministerio de Ambiente y Desarrollo Sostenible), expidió la política nacional para la gestión integral del recurso hídrico.
-            p.mt-4(data-aos="fade-up") Siendo la cuenca una unidad de análisis y gestión integral del recurso hídrico, se deberán considerar en su ordenación y manejo, medidas de acción necesarias para planificar el uso sostenible de la misma y de recursos naturales renovables, ecosistemas y elementos ambientales presentes (medidas de ordenamiento del recurso hídrico, manejo de páramos, de humedales y otros ecosistemas de importancia estratégica, de ordenación forestal, de manejo de reservas forestales, entre otras). Olaya, E. y Tosse, L. (2014, p.13).
-        .row(titulo="Del 20210" subtitulo="al 2012")
+            p.mt-4(data-aos="fade-up") Siendo la cuenca una unidad de análisis y gestión integral del recurso hídrico, se deberán considerar en su ordenación y manejo, medidas de acción necesarias para planificar el uso sostenible de la misma y de recursos naturales renovables, ecosistemas y elementos ambientales presentes (medidas de ordenamiento del recurso hídrico, manejo de páramos, de humedales y otros ecosistemas de importancia estratégica, de ordenación forestal, de manejo de reservas forestales, entre otras) (Olaya, E. y Tosse, L, 2014, p.13).
+        .row(titulo="Del 2010" subtitulo="al 2012")
           .col-lg-9.mb-4.mb-lg-0(style="place-self:center;")
             p(data-aos="fade-up") La Ley 1523 de 2012; adopta la política nacional para establecer el sistema de gestión del riesgo de desastres, interviniendo los  planes de ordenamiento de cuencas.
-            p.mt-4(data-aos="fade-up") El Decreto 1640 de 2012, reglamenta  los instrumentos para planificación, ordenación y manejo de las cuencas hidrográficas y acuíferos. Esta reglamentación establece la nueva estructura de planificación, ordenación y manejo de las cuencas hidrográficas del país, permitiendo claridad en el nivel de gestión, por parte de autoridades ambientales competentes y diferentes entidades y actores responsables de su formulación e implementación (Olaya, E. y Tosse, L., 2014, p.13.
+            p.mt-4(data-aos="fade-up") El Decreto 1640 de 2012, reglamenta  los instrumentos para planificación, ordenación y manejo de las cuencas hidrográficas y acuíferos. Esta reglamentación establece la nueva estructura de planificación, ordenación y manejo de las cuencas hidrográficas del país, permitiendo claridad en el nivel de gestión, por parte de autoridades ambientales competentes y diferentes entidades y actores responsables de su formulación e implementación (Olaya, E. y Tosse, L., 2014, p.13).
           .col-lg-3(style="place-self:center;")
             figure.text-center
               img(src='@/assets/curso/tema2/24.png' data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -268,7 +268,7 @@
           p(numero="2" titulo="Diagnóstico") En esta fase se consolidará el Consejo de cuenca y se determinará el estado actual de la cuenca en sus componentes: físico-biótico, socioeconómico y cultural, político administrativo, funcional y de gestión del riesgo, que servirán de base para el análisis situacional y la síntesis ambiental de la cuenca objeto de ordenación y manejo (2014, p.34).
           p(numero="3" titulo="Prospectiva y zonificación ambiental") Fase en la cual se diseñarán escenarios futuros del uso coordinado y sostenible del suelo, de las aguas, de la flora y de la fauna presente, y se definirá en un horizonte no menor a diez años el modelo de ordenación de la cuenca, con base en el cual se formulará el plan de ordenación y manejo correspondiente (2014, p.49).
           p(numero="4" titulo="Formulación") Comprende la definición del componente programático, las medidas para la administración de los recursos naturales renovables y el componente de gestión del riesgo. También, como parte del componente programático, se formulará la estructura administrativa y la estrategia financiera del POMCA, el diseño del programa de seguimiento y evaluación y, actividades conducentes a la publicidad y aprobación del POMCA (2014, p.62).
-          p(numero="5" titulo="Ejecución") Corresponde a las acciones de coordinación que adelantan las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, para la ejecución del plan de ordenación y manejo de la cuenca hidrográfica, , sin perjuicio de las competencias establecidas en el ordenamiento jurídico para la inversión y realización de las obras y acciones establecidas en la fase de formulación del plan (2014, p.69).
+          p(numero="5" titulo="Ejecución") Corresponde a las acciones de coordinación que adelantan las Corporaciones Autónomas Regionales y de Desarrollo Sostenible, para la ejecución del plan de ordenación y manejo de la cuenca hidrográfica, sin perjuicio de las competencias establecidas en el ordenamiento jurídico para la inversión y realización de las obras y acciones establecidas en la fase de formulación del plan (2014, p.69).
           p(numero="6" titulo="Seguimiento y evaluación") Aplicación de mecanismos definidos en el plan de seguimiento y evaluación, anualmente, por parte de las respectivas Corporaciones Autónomas Regionales y de Desarrollo Sostenible. Cuenta con procedimientos sistemáticos de observación para comprobar la eficiencia y efectividad de los programas, proyectos y acciones formuladas. Determina los logros y debilidades del proceso y derivado de ello, identifica medidas correctivas (2014, p.70).
 
     .cont_2_3.mt-5.pb-5
@@ -294,16 +294,16 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg" alt="Imagen decorativa")
             .anexo__texto
-              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico-científica para la ordenación y manejo de cuencas.]
+              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia ]
         .col-lg-6
           a.anexo.bg-white.h-100(href="https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg" alt="Imagen decorativa")
             .anexo__texto
-              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). #[em(style="color:#12263F;") Política Nacional para la Gestión Integral del Recurso Hídrico.] Bogotá, D.C.: Colombia, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. 124 p.
+              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Ministerio de Ambiente, Vivienda y Desarrollo Territorial (2010). #[em(style="color:#12263F;") Política Nacional para la Gestión Integral del Recurso Hídrico.] Bogotá, D.C.: Colombia, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. 124 p.
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:500px;" data-aos="fade-up")
-      h3.mb-0.text-white.text-center Normas técnicas colombianas para el POMCA
+      h3.mb-0.text-white.text-center Normas Técnicas Colombianas para el POMCA
     
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Para la organización de la información geográfica del plan, se sugiere la aplicación de las siguientes normas técnicas:
 
@@ -315,7 +315,7 @@
               .h2 1
             div
               p.fw-bold(data-aos="fade-up") Norma Técnica Colombiana NTC 5043
-              p.mt-3(data-aos="fade-up") Establece los elementos, subelementos y descriptores de la calidad, utilizados por los productores para determinar si un conjunto de datos cumple la función de representar un universo abstracto, de conformidad con las especificaciones del producto. Igualmente, los usuarios pueden usar los requisitos de esta norma para establecer si un conjunto de datos cumple o no con la calidad para una aplicación específica.
+              p.mt-3(data-aos="fade-up") Establece los elementos, sub-elementos y descriptores de la calidad, utilizados por los productores para determinar si un conjunto de datos cumple la función de representar un universo abstracto, de conformidad con las especificaciones del producto. Igualmente, los usuarios pueden usar los requisitos de esta norma para establecer si un conjunto de datos cumple o no con la calidad para una aplicación específica.
         .col-lg.mb-4.mb-lg-0
           .tarjeta-numerada.color-primario.p-5.h-100.bg-white
             .tarjeta-numerada__numero
@@ -331,6 +331,8 @@
               p.fw-bold(data-aos="fade-up") Norma Técnica Colombiana NTC 5661
               p.mt-3(data-aos="fade-up") Especifica la metodología para determinar la estructura (catálogo) con la cual se organizan los tipos de objetos geográficos, sus definiciones y características (atributos, relaciones y operaciones); de igual forma, unifica las características de los catálogos de objetos, de tal manera que sean integrables, homologables y fácilmente comprensibles y permitir la creación, revisión y actualización.
     
+    p.mt-5(data-aos="fade-right") Puede consultarlas en la base de datos que se encuentra en la página del sistema de bibliotecas SENA, en el icono del Icontec.
+    
     .col-lg-6.m-auto.mt-5
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;")
         .col-auto.p-0.d-flex.align-items-center
@@ -342,13 +344,13 @@
             ul.fa-ul.mt-3.mb-0
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://docplayer.es/73239143-Norma-tecnica-colombiana-5043.html" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-word;" href="https://docplayer.es/73239143-Norma-tecnica-colombiana-5043.html" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/NTC%204611%20de%202000-Nov-01.pdf" target="_blank") NTC 5043 - Conceptos básicos de calidad de los datos geográficos]
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-word;" href="https://www.cvc.gov.co/sites/default/files/Sistema_Gestion_de_Calidad/Procesos%20y%20procedimientos%20Vigente/Normatividad_Gnl/NTC%204611%20de%202000-Nov-01.pdf" target="_blank") NTC 4611 – Información geográfica – Metadatos]
               li(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-all;" href="https://docplayer.es/148459267-Norma-tecnica-colombiana-5661.html" target="_blank") NTC 5661 - Método para catalogación de objetos geográficos]
+                | #[a(style="color:#3076B6;text-decoration:underline;word-break:break-word;" href="https://docplayer.es/148459267-Norma-tecnica-colombiana-5661.html" target="_blank") NTC 5661 - Método para catalogación de objetos geográficos]
     
     Separador.mt-5
 
@@ -368,7 +370,7 @@
       .col-lg-10.m-auto
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/YgXhpZOkYo4" title="Normatividad y reglamentación del sector de agua potable y saneamiento básico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:750px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Reglamentación del sector de Agua potable y Saneamiento básico [RAS]
@@ -434,7 +436,7 @@
           h4.text-white(data-aos="fade-up") Títulos del RAS
           p.text-white.mb-0(data-aos="fade-up") Para consultar cada uno de los títulos se puede dirigir al Ministerio de Vivienda, en la siguiente ruta: #[br] Ministerio de Vivienda. Reglamento técnico del sector Agua potable y Saneamiento, y seleccione el título que desea consultar. 
         .col-lg-2.col-md-3.text-center(style="place-self:center;")
-          a.boton.color-primario(href="http://www.minvivienda.gov.co/viceministerios/viceministerio-de-agua/reglamento-tecnico-del-sector/manuales" target="_blank" type="application/pdf")
+          a.boton.color-primario(href="https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras" target="_blank" type="application/pdf")
             span Ir a página
             i.fas.fa-link
     
@@ -533,7 +535,7 @@ export default {
   width: 100%
   height: auto
   transition: all 0.5s ease-in
-  top: 80%
+  top: 75%
 .cont_image2__description
   background-color: #FFA031 !important
 .cont_image1:hover .cont_image1__description
@@ -543,15 +545,23 @@ export default {
 @media screen and (max-width: 1200px)
   .cont_image1__description
     top: 90%
+  .cont_image1__description p
+    font-size: 16px !important
 @media screen and (max-width: 992px)
   .cont_image1__description
     top: 87%
+  .cont_image1__description p
+    font-size: 16px !important
 @media screen and (max-width: 770px)
   .cont_image1__description
     top: 83%
+  .cont_image1__description p
+    font-size: 16px !important
 @media screen and (max-width: 480px)
   .cont_image1__description
     top: 75%
+  .cont_image1__description p
+    font-size: 16px !important
 .cont_2_2, .cont_2_2 *
   position: relative
 .cont_2_2:before

@@ -13,7 +13,7 @@
       .col-lg-10.m-auto
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/ivfkDtPwXk4" title="Muestreo y medición" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     Separador.mt-5
 
@@ -40,13 +40,13 @@
         ul.fa-ul.mb-0.mt-3
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-            | Puntos fijos.
+            | Puntos fijos
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-            | De interés general.
+            | De interés general
           li(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-            | Provisionales.
+            | Provisionales
       .col-lg-4(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema4/1.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -79,7 +79,7 @@
         .h-100.p-4.pt-0(style="background-color:#FFA031;border-radius:10px;")
           figure.text-center
             img(src="@/assets/curso/tema4/2.svg" data-aos="zoom-in-up" style="max-width:100px;display:inline;position:relative;margin-top:-50px;" alt="Imagen decorativa")
-          h4.text-center.mt-4(data-aos="fade-up") Muestreo Manual
+          h4.text-center.mt-4(data-aos="fade-up") Muestreo manual
           p.mt-3(data-aos="fade-up") Se realizan cuando se tienen sitios de fácil acceso. Permite al encargado tomar la muestra, observar los cambios en las características del agua en cuanto a sustancias flotanes, color, olor, aumento o disminución de caudad, entre otros.
       .col-lg.mb-5.mb-lg-0.mt-4.mt-lg-0
         .h-100.p-4.pt-0(style="background-color:#4DB1F0;border-radius:10px;")

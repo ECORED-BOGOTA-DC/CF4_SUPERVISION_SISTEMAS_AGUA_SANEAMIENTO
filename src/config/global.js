@@ -176,7 +176,7 @@ export default {
     {
       tema: '2.2 Planes de ordenamiento y manejo de cuencas.',
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). Política Nacional para la Gestión Integral del Recurso Hídrico. Bogotá, D.C.: Colombia, Ministerio de Ambiente, Vivienda y Desarrollo Territorial. p.124',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). <em>Política Nacional para la Gestión Integral del Recurso Hídrico. Bogotá, D.C.: Colombia, Ministerio de Ambiente, Vivienda y Desarrollo Territorial</em>. p.124',
       tipo: 'Libro',
       link:
         'https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico',
@@ -184,7 +184,7 @@ export default {
     {
       tema: '2.2 Planes de ordenamiento y manejo de cuencas.',
       referencia:
-        'Instituto de hidrología, meteorología y estudios ambientales. (2004). Guía técnico científica para la Ordenación de las cuencas Hidrográficas en Colombia.',
+        'Instituto de hidrología, meteorología y estudios ambientales. (2004). <em>Guía técnico científica para la Ordenación de las cuencas Hidrográficas en Colombia</em>.',
       tipo: 'Guía',
       link:
         'http://corponarino.gov.co/expedientes/documentacion/ayudaa/guiadecuenca2008.pdf',
@@ -193,7 +193,7 @@ export default {
       tema:
         '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
       referencia:
-        'Resolución 0330.Ministerio de Vivienda, Ciudad y Territorio. Bogotá: Colombia. 8 Junio 2017.',
+        'Resolución 0330. Ministerio de Vivienda, Ciudad y Territorio. Bogotá: Colombia. 8 junio 2017.',
       tipo: 'Normatividad',
       link:
         'https://drive.google.com/file/d/1IjwFAv29GCS91oDODPHGZmLpNSwKVCDq/view?usp=sharing',
@@ -202,7 +202,7 @@ export default {
       tema:
         '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3705, Medición de flujo de agua en canal abierto con vertederos de placa fina.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3705, <em>Medición de flujo de agua en canal abierto con vertederos de placa fina</em>.',
       tipo: 'Norma',
       link:
         'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-04391?func=full-set-set&set_number=006428&set_entry=000001&format=999',
@@ -211,7 +211,7 @@ export default {
       tema:
         '2.3 Normatividad y reglamentación del sector de agua potable y saneamiento básico.',
       referencia:
-        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3933. Método estándar para medición del flujo de agua en canal abierto, con canaletas parshall.',
+        'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3933. <em>Método estándar para medición del flujo de agua en canal abierto, con canaletas Parshall</em>.',
       tipo: 'Norma',
       link:
         'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-22055?func=full-set-set&set_number=006440&set_entry=000001&format=999',
@@ -219,7 +219,7 @@ export default {
     {
       tema: '3.2 Parámetros de calidad del agua.',
       referencia:
-        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (2007). Protocolo para el monitoreo y seguimiento del agua.',
+        'Instituto de Hidrología, Meteorología y Estudios Ambientales [IDEAM]. (2007). <em>Protocolo para el monitoreo y seguimiento del agua</em>.',
       tipo: 'Guía',
       link:
         'http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf',
@@ -227,7 +227,7 @@ export default {
     {
       tema: '3.2 Parámetros de calidad del agua.',
       referencia:
-        'Instituto Nacional de Salud [INS]. (2011). Documentación SIVICAP.',
+        'Instituto Nacional de Salud [INS]. (2011). <em>Documentación SIVICAP</em>.',
       tipo: 'Manual',
       link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
     },
@@ -311,7 +311,7 @@ export default {
     {
       referencia:
         'Cárdenas, D. y Patiño, F. (2010). Estudios y diseños definitivos del sistema de agua potable de la comunidad de Tutucán, cantón paute, provincia del Azuay. Facultad de ingeniería civil. México.',
-      link: 'https://dspace.ucuenca.edu.ec/bitstream/123456789/725/1/ti853.pdf',
+      link: 'http://dspace.ucuenca.edu.ec/bitstream/123456789/725/1/ti853.pdf',
     },
     {
       referencia:
@@ -344,7 +344,7 @@ export default {
       referencia:
         'Ministerio de Desarrollo Económico. (2017). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico. [RAS].',
       link:
-        'http://www.minvivienda.gov.co/Documents/ViceministerioAgua/010710_ras_titulo_a_.pdf',
+        'https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras',
     },
     {
       referencia:
@@ -384,15 +384,15 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Líder del equipo',
+          nombre: 'Claudia Patricia Aristizábal Gutiérrez',
+          cargo: 'Responsable del equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Rafael Neftalí Lizcano Reyes',
+          nombre: 'Liliana Victoria Morales Gualdrón',
           cargo: 'Responsable de línea de producción',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -400,10 +400,16 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
+          nombre: 'Alix Cecilia Chinchilla Rueda',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Andrés Felipe Velandia Espitia',
+          cargo: 'Metodología para la formación virtual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -411,22 +417,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
+          nombre: 'Eulises Orduz Amézquita',
+          cargo: 'Diseño web-2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Desarrollador Fullstack',
+          nombre: 'Luis Jesús Pérez Madariaga',
+          cargo: 'Desarrollador Fullstack-2023',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
+          nombre: 'Lady Adriana Ariza Luque',
+          cargo: 'Animación y producción audiovisual',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Laura Gisselle Murcia Pardo',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Ernesto Navarro Jaimes',
+          cargo: 'Animación y producción audiovisual',
+          centro:
+            'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },
@@ -434,22 +452,22 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Zuleidy María Ruiz Torres',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Carolina Coca Salazar',
+          cargo: 'Evaluación de contenidos inclusivos y accesibles',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Luis Gabriel Urueta Alvarez',
-          cargo: 'Validación y vinculación en plataforma LMS',
+          nombre: 'Lina Marcela Pérez Manchego',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
         {
-          nombre: 'Daniel Ricardo Mutis Gómez',
-          cargo: 'Validación de contenidos accesibles',
+          nombre: 'Leyson Fabian Castaño Pérez',
+          cargo: 'Validación de recursos educativos digitales',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

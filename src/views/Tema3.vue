@@ -12,7 +12,7 @@
         figure.text-center
           img(src="@/assets/curso/tema3/1.png" data-aos="fade-right" style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .col-lg-8(style="place-self:center;")
-        p(data-aos="fade-up") Una de las primeras etapas en el proceso de potabilización de agua consiste en la captación de ésta a través de diferentes sistemas que son seleccionados y configurados, acorde a las características propias de la fuente de captación y requerimientos de suministro.
+        p(data-aos="fade-up") Una de las primeras etapas en el proceso de potabilización de agua consiste en la captación de esta a través de diferentes sistemas que son seleccionados y configurados, acorde a las características propias de la fuente de captación y requerimientos de suministro.
         .cajon.color-acento-botones.p-4.mt-4(style="background-color:#98D8D7;")
           p.mb-0(data-aos="fade-up") Esto involucra una serie de conocimientos necesarios para abordar de la manera más efectiva cada actividad, que van desde algunos principios básicos de hidráulica, hasta reconocer los sistemas de captación y su funcionamiento.
     
@@ -48,10 +48,10 @@
             img(src='@/assets/curso/tema3/5.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .row.col-xl-11.m-auto(titulo="4. Ejemplo de conversión de unidades")
         .col-lg-7.mb-4.mb-lg-0
-          p #[strong Ejemplo 1.] Al abrir una válvula ubicada en una tubería se permite el paso de 1,2 L/s. ¿Cuántos m3/día pasan por el sistema?
+          p #[strong Ejemplo 1.] Al abrir una válvula ubicada en una tubería se permite el paso de 1,2 L/s. ¿Cuántos m#[sup 3]/día pasan por el sistema?
           figure.mt-3.col-8.m-auto.text-center
             img(src="@/assets/curso/tema3/6.svg" style="max-width:450px;display:inline;" alt="Imagen decorativa")
-          p.mt-4 #[strong Ejemplo 2.] Un operario abre una válvula durante 8 horas al día, permitiendo el flujo de 1,2 L/s. ¿Cuántos m3/día pasan por el sistema?
+          p.mt-4 #[strong Ejemplo 2.] Un operario abre una válvula durante 8 horas al día, permitiendo el flujo de 1,2 L/s. ¿Cuántos m#[sup 3]/día pasan por el sistema?
           figure.mt-3.col-8.m-auto.text-center
             img(src="@/assets/curso/tema3/7.svg" style="max-width:450px;display:inline;" alt="Imagen decorativa")
           .p-3.bg-white.mt-4
@@ -61,20 +61,23 @@
             img(src='@/assets/curso/tema3/8.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .row.col-xl-11.m-auto(titulo="5. Presión")
         .col-lg-12
-          p.d-inline Se puede definir la presión como la cantidad de fuerza que se ejerce sobre un área determinada. Esto se representa mediante la ecuación #[img(src="@/assets/curso/tema3/9.png" style="max-width:60px;display:inline;")] sus unidades son N/m (Mott, 2006, p. 12).
+          p.d-inline Se puede definir la presión como la cantidad de fuerza que se ejerce sobre un área determinada. Esto se representa mediante la ecuación #[img(src="@/assets/curso/tema3/9.svg" style="max-width:60px;display:inline;")] sus unidades son N/m (Mott, 2006, p. 12).
+          p.mt-3 Existen dos principios conocidos como leyes de Pascal, que enuncian lo siguiente:
           .row.mt-4
             .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
               p La presión actúa de modo uniforme en todas las direcciones de un volumen pequeño de fluido.
               figure.mt-3.text-center
                 img(src='@/assets/curso/tema3/10.png' style="max-width:450px;display:inline;" alt="Presión")
             .col-lg-6(style="place-self:center;")
-              p En un fluido confinado por fronteras sólidas, la presión actúa de manera.
+              p En un fluido confinado por fronteras sólidas, la presión actúa de manera perpendicular a la pared.
               figure.mt-3.text-center
                 img(src='@/assets/curso/tema3/11.png' style="max-width:450px;display:inline;" alt="Fronteras solidas")
       .row.col-xl-11.m-auto(titulo="6. Tasa de flujo")
         .col-lg-7.mb-4.mb-lg-0
           p La tasa de flujo permite expresar la cantidad de fluido en función del tiempo. Mott (2006) indica que se pueden emplear tres términos diferentes:
           p.mt-4 El flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo. Se calcula con la siguiente ecuación:
+          figure.mt-3.col-10.m-auto.text-center
+            img(src="@/assets/curso/tema3/51.svg" style="max-width:75px;display:inline;" alt="Imagen decorativa")
           p.mt-4 Donde #[strong A] es el área de la sección y #[strong v] es la velocidad promedio del fluido. En el SI sus unidades son m#[sup 3]/s.
         .col-lg-5
           figure.text-center
@@ -88,7 +91,7 @@
           p.mt-4 El flujo másico (M) es la masa de un fluido que circula en una sección por unidad de tiempo.
           figure.mt-3.col-10.m-auto.text-center
             img(src="@/assets/curso/tema3/14.svg" style="max-width:160px;display:inline;" alt="Imagen decorativa")
-          p.mt-4 donde #[strong #[em p]] es la densidad del fluido. Sus unidades son kg/s.
+          p.mt-4 Donde #[strong #[em p]] es la densidad del fluido. Sus unidades son kg/s.
         .col-lg-5
           figure.text-center
             img(src='@/assets/curso/tema3/15.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -186,7 +189,7 @@
             | #[em z] es la carga de elevación.
           li(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-            | v2/2g es la carga de velocidad.
+            | v#[sup 2]/2g es la carga de velocidad.
         p.mt-3(data-aos="fade-up") A la suma de estos tres términos se les conoce como carga total.
       .col-lg-4(style="place-self:center;")
         figure.text-center
@@ -205,7 +208,7 @@
           ul.lista-ul--separador.mb-0
             li.d-flex(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#FFA031;")
-              | Es válida solo para fluidos incompresibles, pues supone que el peso específico (#[em y]) no varía entre las dos secciones de interés.
+              p.mb-0 Es válida solo para fluidos incompresibles, pues supone que el peso específico (#[em y]) no varía entre las dos secciones de interés.
             li.d-flex(data-aos="fade-up")
               i.fas.fa-check-circle(style="color:#FFA031;")
               | No puede haber dispositivos entre las dos secciones que ingresen o retiren energía. La ecuación establece que la energía en el fluido es constante.
@@ -260,11 +263,11 @@
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Para la medición del caudal es posible aplicar diferentes métodos que pueden ser seleccionados en función de las características del flujo, tecnología disponible y exactitud de los datos requerida.
         p.mt-4(data-aos="fade-up") De acuerdo al protocolo de monitoreo del agua (Ideam, 2017, p.178), 
-        p(data-aos="fade-up") para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros.
+        p(data-aos="fade-up") "Para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros".
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         .h-100.p-4(style="background-color:#A5D8F7;border-radius:25px;")
           p.fw-bold(data-aos="fade-up") Entre los métodos se encuentran:
-          p.mb-0.d-flex(data-aos="fade-up") #[strong A.] &nbsp; Método Área-Velocidad.
+          p.mb-0.d-flex(data-aos="fade-up") #[strong A.] &nbsp; Método área-velocidad.
           p.mb-0.d-flex(data-aos="fade-up") #[strong B.] &nbsp; Método volumétrico.
           p.mb-0.d-flex(data-aos="fade-up") #[strong C.] &nbsp; Método con trazadores (dilución).
           p.mb-0.d-flex(data-aos="fade-up") #[strong D.] &nbsp; Estructuras aforadas.
@@ -300,7 +303,7 @@
             | Aforo con flotadores.
           li(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-            | Aforo ADCP (Acoustic Doppler Current Profiler).
+            | Aforo ADCP (#[em Acoustic Doppler Current Profiler]).
     
     p.mt-5(data-aos="fade-up") La medición de caudales a través del método área-velocidad, se determina a través de la selección de número de vértices, determinación del ancho, determinación de la profundidad, cálculo del área, medición de la velocidad, cálculo del área y caudal. Lo anterior se puede representar mediante la siguiente imagen:
         
@@ -343,7 +346,7 @@
             span Configuración típica de una medición con un instrumento de efecto Doppler
           figure
             img(src="@/assets/curso/tema3/37.png" data-aos="zoom-in-up" alt="Configuración típica de una medición con un instrumento de efecto Doppler")
-            figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#fff;") Fuente:OMM. (2011). pp.1.5-21. Medición con instrumento doppler. [Ilustración].
+            figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#fff;") Fuente: OMM. (2011). pp.1.5-21. Medición con instrumento doppler. [Ilustración].
         p.mt-4 Cuando el sonido enviado por el ADCP llega a los reflectores, este se desplaza a una mayor frecuencia debido al efecto Doppler; este desplazamiento frecuencial es proporcional a la velocidad relativa entre el ADCP y los reflectores. Parte de este sonido desplazado es reflejado hacia el ADCP, donde se recibe desplazado una segunda vez. Los archivos generados por el equipo pueden llevarse las gráficas a impresión a Excel mediante el software del equipo, así como la tabla de trayectos para plotear el aforo.
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:400px;" data-aos="fade-up")
@@ -358,7 +361,7 @@
           span Aforo volumétrico
         figure
           img(src="@/assets/curso/tema3/38.svg" data-aos="zoom-in-up" alt="Aforo volumétrico")
-          figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Ideam. (2006). Citado en Protocolo de monitoreo del agua. (2017). Método aforo volumétrico. p. 184. [Ilustración].
+          figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Ideam. (2006). #[em Citado en Protocolo de monitoreo del agua]. (2017). Método aforo volumétrico. p. 184. [Ilustración].
     
     .cajon.color-acento-contenido.p-4.mt-5(style="background-color:#E0F4FE;")
       p.mb-0(data-aos="fade-up") Para tal efecto, se recurre a recipientes de uso común como un balde o caneca que tenga registros de volumen; en otros casos, el aforo se realiza en tanques de mayor tamaño que tengan dimensiones precisas, de tal manera que mediante la medición de un diferencial de nivel se determina un incremento de volumen y tomando el tiempo de incremento de volumen se puede calcular directamente el caudal que lleva la corriente o el canal (Ideam, 2007, p. 43).
@@ -368,9 +371,9 @@
 
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
-        p(data-aos="fade-up") La medición del caudal mediante este método está basada en la determinación del grado de dilución en el agua, de la corriente de una solución del trazador vertida en ella. Este método se recomienda utilizar para secciones de aforo donde se encuentren grandes turbulencias y remolinos, régimen torrencial, altas pendientes, poca profundidad, lechos inestables y líneas de flujo desordenadas. Los aforos con trazadores, también llamados aforos químicos, permiten conocer el caudal a partir de la variación de concentración de una sustancia inyectada en el cauce que permite estudiar su comportamiento y evolución (IDEAM, 2017, p. 184).
+        p(data-aos="fade-up") La medición del caudal mediante este método está basada en la determinación del grado de dilución en el agua, de la corriente de una solución del trazador vertida en ella. Este método se recomienda utilizar para secciones de aforo donde se encuentren grandes turbulencias y remolinos, régimen torrencial, altas pendientes, poca profundidad, lechos inestables y líneas de flujo desordenadas. Los aforos con trazadores, también llamados aforos químicos, permiten conocer el caudal a partir de la variación de concentración de una sustancia inyectada en el cauce que permite estudiar su comportamiento y evolución (Ideam, 2017, p. 184).
         .cajon.color-secundario.p-4.cajon1.mt-4(style="background-color:#F6F6F6;")
-          p.mb-0(data-aos="fade-up") El procedimiento consiste en inyectar un trazador en una sección de la corriente y realizar aguas abajo, a una distancia lo suficientemente lejos para que haya dilución total, mediciones de conductividad eléctrica para detectar el paso de la nube y así calcular el caudal (IDEAM, 2007, p. 51).
+          p.mb-0(data-aos="fade-up") El procedimiento consiste en inyectar un trazador en una sección de la corriente y realizar aguas abajo, a una distancia lo suficientemente lejos para que haya dilución total, mediciones de conductividad eléctrica para detectar el paso de la nube y así calcular el caudal (Ideam, 2007, p. 51).
       .col-lg-4(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema3/39.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -380,7 +383,7 @@
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:400px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center D. Estructuras aforadas
     
-    p.mt-4(data-aos="fade-up") Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador. A continuación, se presentan las estructuras más utilizadas (IDEAM, 2017, pp. 188-190):
+    p.mt-4(data-aos="fade-up") Son estructuras que han sido estudiadas y calibradas en diferentes condiciones experimentales. Para cada una de ellas es posible obtener una ecuación de descarga (relación Nivel-Caudal) que permite determinar el caudal instantáneo en función de la altura de la lámina de agua con respecto a un punto de la estructura, que se mide con ayuda de una mira o un instrumento registrador. A continuación, se presentan las estructuras más utilizadas (Ideam, 2017, pp. 188-190):
 
     .row.mt-5(style="max-width:fit-content;" data-aos="fade-up")
       .col.p-0(style="place-self:end;")
@@ -417,7 +420,7 @@
         figure
           img(src="@/assets/curso/tema3/40.svg" alt="Imagen decorativa")
       .col-auto.p-0(style="place-self:center;border-bottom:3px #3076B6 dotted;")
-        h4.mb-0.pb-1.ps-2 Canales &nbsp;&nbsp;&nbsp;
+        h4.mb-0.pb-1.ps-2 Canaletas &nbsp;&nbsp;&nbsp;
     
     p.mt-4(data-aos="fade-up") Son estructuras de gran aplicación en terrenos planos, ya que funcionan a flujo libre con pérdidas de carga pequeñas. Las canaletas más utilizadas son:
 
@@ -435,7 +438,7 @@
             | #[strong Canaleta Parshall:] está conformada por tres secciones principales: una sección convergente de contracción, que se localiza en su extremo aguas arriba, una garganta y una sección divergente o expansión aguas abajo. Para determinar el caudal se dispone de dos medidores de profundidad (Ha y Hb), los cuales se calibran colocando la cota "cero" coincidiendo con la cota de la cresta del canal (sección convergente). Opera como un dispositivo de cabeza sencilla con mínima pérdida de energía, por lo cual se utiliza en canales poco profundos y con escasa pendiente.
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema3/44.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/44.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") En la siguiente tabla se presentan los equipos empleados para los métodos descritos:
 
@@ -446,7 +449,7 @@
 
       .tabla-a.color-secundario.mt-4 
         table(alt="Equipos empleados según método de aforo")
-          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") Fuente: Ideam. (2017). Equipos para medición de caudal. p. 191. [Tabla]. #[br] #[a(href="http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/PROTOCOLO_MONITOREO_AGUA_IDEAM.pdf" target="_blank" style="color:#3076B6;word-break:break-all;") http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/PROTOCOLO_MONITOREO_AGUA_IDEAM.pdf]
+          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") Fuente: Ideam. (2017). Equipos para medición de caudal. p. 191. [Tabla]. #[br] #[a(href="http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf" target="_blank" style="color:#3076B6;word-break:break-all;") http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf]
           thead
             tr(style="background-color:#DBEFFC;")
               th.p-4(colspan="2") Métodos
@@ -454,7 +457,7 @@
               th.p-4 Tipo de equipo
           tbody
             tr
-              td.p-4.fw-bold.text-center(rowspan="4") Métodos área velocidad
+              td.p-4.text-center(rowspan="4") Métodos área velocidad
               td.p-4
                 ul.lista-ul.mb-0
                   li.d-flex(data-aos="fade-up")
@@ -476,7 +479,7 @@
               td.p-4 Electromecánico
             tr
               td.p-4 Aforo con flotadores
-              td.p-4 Flotadores que miden la velocidad superficial
+              td.p-4 Flotadores que miden la velocidad superficial.
               td.p-4 Mecánico
             tr
               td.p-4 Perfilador de corrientes acústico Doppler (ADCP)
@@ -484,12 +487,12 @@
               td.p-4 Electrónico
             tr
               td.p-4 Método área - pendiente
-              td.p-4 Se determinan la pendiente y rigurosidad, la velocidad se calcula con Manning o Chezy
+              td.p-4 Se determinan la pendiente y rigurosidad, la velocidad se calcula con Manning o Chezy,
               td.p-4 Mecánico
             tr
               td.p-4 Método volumétrico
               td.p-4 Aforo volumétrico
-              td.p-4 Recipiente con volumen conocido y cronómetro
+              td.p-4 Recipiente con volumen conocido y cronómetro.
               td.p-4 Mecánico
             tr
               td.p-4 Método de dilución
@@ -498,13 +501,13 @@
               td.p-4 Químico
             tr
               td.p-4 Estructuras aforadoras
-              td.p-4 Vertederos: Rectangular, trapezoidal, triangular. #[br] Canaletas: Parshall, medidor sin cuello, tipo Balloffet.
+              td.p-4 Vertederos: rectangular, trapezoidal, triangular. #[br] Canaletas: Parshall, medidor sin cuello, tipo Balloffet.
               td.p-4 Tienen ecuaciones que permiten determinar el caudal instantáneo en función de su geometría.
               td.p-4 Mecánico o electromecánico
     
-    .mt-5.col-11.m-auto
+    .mt-5.col-10.m-auto
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
-        .col-auto.p-0.d-flex.align-items-center
+        .col-auto.pe-0.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;" alt="Imagen decorativa")
         .col.p-0.pe-3
@@ -512,7 +515,7 @@
             h4(data-aos="fade-up") Importante
             p(data-aos="fade-up") La base normativa sobre los métodos de medición de caudal es: NTC 3933. Método estándar para medición de flujo de agua en canal abierto con canaleta Parshall. 
             p.mt-4(data-aos="fade-up") #[strong NTC 3705.] Medición de flujo de agua en canal abierto con vertederos de placa fina.
-            p.mt-4.mb-0(data-aos="fade-up") Para consultarla debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;word-break:break-all;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) Ir a ICONTEC y buscar norma NTC 3833 y allí seleccionar NTC 3933:2007 / NTC 3705:2007
+            p.mt-4.mb-0(data-aos="fade-up") Para consultarla debe ingresar a biblioteca SENA, (#[a(style="color:#3076B6;word-break:break-word;" href="http://biblioteca.sena.edu.co/paginas/bases.html" target="_blank") http://biblioteca.sena.edu.co/paginas/bases.html]) Ir a ICONTEC y buscar norma NTC 3833 y allí seleccionar NTC 3933:2007 / NTC 3705:2007
     
     p.mt-5(data-aos="fade-up") De acuerdo con el Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], la captación se realiza a través de un conjunto de estructuras, equipos, materiales, procesos, operaciones y recurso humano, para tomar agua de una fuente de suministro, tratarla y distribuirla en condiciones potables.
     p.mt-4(data-aos="fade-up") Las fuentes de suministro deben permitir dotar a la población de la cantidad de agua necesaria, teniendo en cuenta criterios técnicos, económicos y ambientales. Tomando como base la información suministrada en el tema de abastecimiento de agua, es posible hacer referencia a las siguientes fuentes en función de su origen:
@@ -524,7 +527,7 @@
             img(src="@/assets/curso/tema3/45.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.mb-5 Superficiales
-              p.mb-0 Ríos, quebradas, lagos, lagunas y embalses de almacenamiento y excepcionalmente aguas lluvias y agua de mar
+              p.mb-0 Ríos, quebradas, lagos, lagunas y embalses de almacenamiento y excepcionalmente aguas lluvias y agua de mar.
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
@@ -565,7 +568,7 @@
             tr
               td.p-4.fw-bold.text-center Superficiales
               td.p-4 Disponibilidad, visibles, baja dureza, limpiables.
-              td.p-4 Se contaminan con facilidad, su calidad es muy variada, presentan alto color, turbiedad y contenido de materia orgánica
+              td.p-4 Se contaminan con facilidad, su calidad es muy variada, presentan alto color, turbiedad y contenido de materia orgánica.
             tr
               td.p-4.fw-bold.text-center Subterráneas
               td.p-4 Bajo color y turbiedad, calidad constante, baja corrosividad y contenido de materia orgánica.
@@ -574,7 +577,7 @@
     p.mt-5.fw-bold.text-center(data-aos="fade-up") Las estructuras de captación pueden hacer uso de dos principios para su funcionamiento, así:
 
     .row.col-lg-10.m-auto.mt-5
-      .col-lg.mb-4.mb-lg-0.p-0(style="place-self:center;")
+      .col-lg.mb-4.mb-lg-0.pe-0(style="place-self:center;")
         .h-100.d-flex(style="background: linear-gradient(180deg, rgba(77,177,240,1) 0%, rgba(166,214,244,1) 100%);border-radius:25px 0px 0px 25px;")
           .d-flex.align-items-center(style="min-width: 20%;max-width: 20%;position: relative;margin-left:-10%;")
             img(src="@/assets/curso/tema3/48.svg" data-aos="fade-right" alt="Imagen decorativa")
@@ -582,7 +585,7 @@
             .p-4.pt-5.pb-5
               h5(data-aos="fade-up") Bombeo
               p.mb-0(data-aos="fade-up") Empleada cuando la estructura de captación y conducción se ubican por encima de la cota de la fuente de abastecimiento.
-      .col-lg.p-0(style="place-self:center;")
+      .col-lg.ps-0(style="place-self:center;")
         .h-100.d-flex(style="background: linear-gradient(180deg, rgba(255,160,49,1) 0%, rgba(255,192,119,1) 100%);border-radius:0px 25px 25px 0px;")
           .d-flex.w-100(style="margin-right: -10%;padding-right: 10%;")
             .p-4.pt-5.pb-5
@@ -634,13 +637,13 @@
         div(style="max-width: fit-content;font-size:30px;background-color:#4DB1F0;padding:.5rem 1.3rem;border-radius:50%;font-weight:bold;" data-aos="fade-right") 7
       .col(style="place-self:center;")
         h5(data-aos="fade-up") Presa de derivación
-        p.mb-0(data-aos="fade-up") Este tipo de captación de aguas superficiales es aconsejable, por razones económicas, en aquellos cursos de agua superficial preferiblemente angostos y cuando se presentan épocas muy prolongadas de niveles de caudal bajo en el río. La presa tiene como objeto elevar el nivel de agua de modo que éste garantice una altura adecuada y constante sobre la bocatoma.
+        p.mb-0(data-aos="fade-up") Este tipo de captación de aguas superficiales es aconsejable, por razones económicas, en aquellos cursos de agua superficial preferiblemente angostos y cuando se presentan épocas muy prolongadas de niveles de caudal bajo en el río. La presa tiene como objeto elevar el nivel de agua de modo que este garantice una altura adecuada y constante sobre la bocatoma.
     .row.pt-4.pb-4(style="border-top:2px #AFAFAF dotted;")
       .col-auto(style="place-self:center;")
         div(style="max-width: fit-content;font-size:30px;background-color:#FFA031;padding:.5rem 1.3rem;border-radius:50%;font-weight:bold;" data-aos="fade-right") 8
       .col(style="place-self:center;")
         h5(data-aos="fade-up")  Cámara de toma directa
-        p.mb-0(data-aos="fade-up") Este tipo de captación se recomienda para el caso de pequeños ríos de llanura, cuando el nivel de aguas en éstos es estable durante todo el período hidrológico.
+        p.mb-0(data-aos="fade-up") Este tipo de captación se recomienda para el caso de pequeños ríos de llanura, cuando el nivel de aguas en estos es estable durante todo el período hidrológico.
     .row.pt-4.pb-4(style="border-top:2px #AFAFAF dotted;border-bottom:2px #AFAFAF dotted;")
       .col-auto(style="place-self:center;")
         div(style="max-width: fit-content;font-size:30px;background-color:#4DB1F0;padding:.5rem 1.3rem;border-radius:50%;font-weight:bold;" data-aos="fade-right") 9
@@ -658,25 +661,25 @@
         ul.fa-ul.mb-0.mt-3
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Bombas.
+            | Bombas
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Motores.
+            | Motores
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Arrancadores.
+            | Arrancadores
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Tableros de control.
+            | Tableros de control
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Transformadores.
+            | Transformadores
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Válvulas.
+            | Válvulas
           li.mb-2(data-aos="fade-up")
             i.fas.fa-check-circle.fa-li(style="color:#4DB1F0;")
-            | Tuberías de succión e impulsión.
+            | Tuberías de succión e impulsión
       .col-lg-5(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema3/50.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
@@ -693,8 +696,8 @@
           .p-4.ps-2
             h4(data-aos="fade-up") Importante
             p.mb-0(data-aos="fade-up") Para más detalle sobre sistemas de captación se recomienda revisar el siguiente material complementario:
-            p.mb-0(data-aos="fade-up") - Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], Titulo B.
-            a(href="http://www.minvivienda.gov.co/viceministerios/viceministerio-de-agua/reglamento-tecnico-del-sector/manuales" target="_blank" style="color:#3076B6;word-break:break-all;" data-aos="fade-up") http://www.minvivienda.gov.co/viceministerios/viceministerio-de-agua/reglamento-tecnico-del-sector/manuales
+            p.mb-0(data-aos="fade-up") - Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], Título B.
+            a(href="https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf" target="_blank" style="color:#3076B6;word-break:break-all;" data-aos="fade-up") https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf
 
 
 

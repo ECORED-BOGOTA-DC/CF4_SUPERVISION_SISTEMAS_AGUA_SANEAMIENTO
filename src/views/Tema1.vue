@@ -22,13 +22,13 @@
       .col-lg-10.m-auto
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/srnYgncoYEU" title="Río Magdalena: Contrastes" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     
     p.mt-5(data-aos="fade-up") A partir de lo anterior se le invita a reflexionar sobre la necesidad de abordar el contenido que se muestra en este componente, para lo cual puede utilizar como base los planteamientos que se muestran en la siguiente infografía:
 
     .cont_gradiente1
       figure
-        img(src="@/assets/curso/tema1/3.png" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
 
         
 
