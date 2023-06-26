@@ -205,7 +205,7 @@ export default {
         'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3705, <em>Medición de flujo de agua en canal abierto con vertederos de placa fina</em>.',
       tipo: 'Norma',
       link:
-        'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-04391?func=full-set-set&set_number=006428&set_entry=000001&format=999',
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=2777',
     },
     {
       tema:
@@ -214,7 +214,7 @@ export default {
         'Instituto Colombiano de Normas Técnicas y Certificación [ICONTEC]. (2007). NTC 3933. <em>Método estándar para medición del flujo de agua en canal abierto, con canaletas Parshall</em>.',
       tipo: 'Norma',
       link:
-        'https://biblioteca.sena.edu.co/F/QEJ42XVE9FKX7J83CD3UF7DUQ7YF4LSEKTDMGCGSHT4TF29XEK-22055?func=full-set-set&set_number=006440&set_entry=000001&format=999',
+        'https://e-collection-icontec-org.bdigital.sena.edu.co/normavw.aspx?ID=2976',
     },
     {
       tema: '3.2 Parámetros de calidad del agua.',
