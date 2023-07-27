@@ -67,11 +67,11 @@
             .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
               p La presión actúa de modo uniforme en todas las direcciones de un volumen pequeño de fluido.
               figure.mt-3.text-center
-                img(src='@/assets/curso/tema3/10.png' style="max-width:450px;display:inline;" alt="Presión")
+                img(src='@/assets/curso/tema3/10.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
             .col-lg-6(style="place-self:center;")
               p En un fluido confinado por fronteras sólidas, la presión actúa de manera perpendicular a la pared.
               figure.mt-3.text-center
-                img(src='@/assets/curso/tema3/11.png' style="max-width:450px;display:inline;" alt="Fronteras solidas")
+                img(src='@/assets/curso/tema3/11.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
       .row.col-xl-11.m-auto(titulo="6. Tasa de flujo")
         .col-lg-7.mb-4.mb-lg-0
           p La tasa de flujo permite expresar la cantidad de fluido en función del tiempo. Mott (2006) indica que se pueden emplear tres términos diferentes:
@@ -166,7 +166,7 @@
 
     .col-lg-6.m-auto.mt-5
       figure.text-center
-        img(src="@/assets/curso/tema3/25.svg" data-aos="zoom-in-up" style="max-width:450px;display:inline;" alt="Línea piezométrica")
+        img(src="@/assets/curso/tema3/25.svg" data-aos="zoom-in-up" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:550px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Conservación de la energía - Ecuación de Bernoulli
@@ -263,7 +263,7 @@
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
         p(data-aos="fade-up") Para la medición del caudal es posible aplicar diferentes métodos que pueden ser seleccionados en función de las características del flujo, tecnología disponible y exactitud de los datos requerida.
         p.mt-4(data-aos="fade-up") De acuerdo al protocolo de monitoreo del agua (Ideam, 2017, p.178), 
-        p(data-aos="fade-up") "Para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros".
+        p(data-aos="fade-up") "Para la medición del caudal en una corriente se han desarrollado diversos métodos de aforo que se aplican según el tamaño del cauce, la magnitud del caudal, las características hidráulicas del flujo, la necesidad de contar con datos inmediatos o a corto plazo y, en general, las dificultades para realizar el aforo, entre otros."
       .col-lg-3.mb-4.mb-lg-0(style="place-self:center;")
         .h-100.p-4(style="background-color:#A5D8F7;border-radius:25px;")
           p.fw-bold(data-aos="fade-up") Entre los métodos se encuentran:
@@ -309,7 +309,7 @@
         
     .col-lg-8.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5.d-block Figura 4
+        h5.d-block Figura 3
         span Área de la sección transversal
       figure
         img(src="@/assets/curso/tema3/35.png" data-aos="zoom-in-up" alt="Área de la sección transversal")
@@ -330,7 +330,7 @@
         p  Se utiliza cuando se requiere medir en forma rápida el caudal en una corriente que presenta una lámina de pocos centímetros de profundidad, cuando se esté en presencia de grandes cantidades de material en suspensión, o cuando deba efectuarse una medición del caudal en un período muy breve. Para lo cual se mide la velocidad superficial a lo ancho del cauce, utilizando flotadores especialmente diseñados y suministrados para este efecto.
         .col-lg-8.m-auto.mt-5
           .titulo-sexto.color-acento-botones
-            h5.d-block Figura 5
+            h5.d-block Figura 4
             span Medición de la velocidad de flujo
           figure
             img(src="@/assets/curso/tema3/36.png" data-aos="zoom-in-up" alt="Medición de la velocidad de flujo")
@@ -342,7 +342,7 @@
         p.mt-4 El ADCP utiliza el efecto Doppler, transmitiendo sonido a una frecuencia fija y escuchando los ecos retornados por los reflectores presentes en el agua, como pequeñas partículas o plancton, que reflejan el sonido hacia el ADCP, los cuales se mueven a la misma velocidad horizontal del agua. La siguiente imagen representa una medición mediante el método ADCP:
         .col-lg-8.m-auto.mt-5
           .titulo-sexto.color-acento-botones
-            h5.d-block Figura 6
+            h5.d-block Figura 5
             span Configuración típica de una medición con un instrumento de efecto Doppler
           figure
             img(src="@/assets/curso/tema3/37.png" data-aos="zoom-in-up" alt="Configuración típica de una medición con un instrumento de efecto Doppler")
@@ -357,11 +357,11 @@
     .cont_gradiente1.mt-5
       .col-lg-10.m-auto
         .titulo-sexto.color-acento-botones
-          h5.d-block Figura 7
+          h5.d-block Figura 6
           span Aforo volumétrico
         figure
           img(src="@/assets/curso/tema3/38.svg" data-aos="zoom-in-up" alt="Aforo volumétrico")
-          figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Ideam. (2006). #[em Citado en Protocolo de monitoreo del agua]. (2017). Método aforo volumétrico. p. 184. [Ilustración].
+          figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Ideam. (2006). Citado en #[em Protocolo de monitoreo del agua]. (2017). Método aforo volumétrico. p. 184. [Ilustración].
     
     .cajon.color-acento-contenido.p-4.mt-5(style="background-color:#E0F4FE;")
       p.mb-0(data-aos="fade-up") Para tal efecto, se recurre a recipientes de uso común como un balde o caneca que tenga registros de volumen; en otros casos, el aforo se realiza en tanques de mayor tamaño que tengan dimensiones precisas, de tal manera que mediante la medición de un diferencial de nivel se determina un incremento de volumen y tomando el tiempo de incremento de volumen se puede calcular directamente el caudal que lleva la corriente o el canal (Ideam, 2007, p. 43).
@@ -444,7 +444,7 @@
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5.d-block Tabla 1
+        h5.d-block Tabla 2
         span Equipos empleados según método de aforo
 
       .tabla-a.color-secundario.mt-4 
@@ -553,7 +553,7 @@
 
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5.d-block Tabla 2
+        h5.d-block Tabla 3
         span  Ventajas y desventajas según la fuente
 
       .tabla-a.color-secundario.mt-4 

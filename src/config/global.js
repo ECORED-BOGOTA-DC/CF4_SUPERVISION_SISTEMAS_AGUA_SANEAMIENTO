@@ -234,7 +234,7 @@ export default {
     {
       tema: '3.3 Aforo de caudal.',
       referencia:
-        'Ministerio de Vivienda, Ciudad y Territorio. (2010). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico - RAS. Título B. ISBN: 978-958-8491-51-6',
+        'Ministerio de Vivienda, Ciudad y Territorio. (2010). <em>Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico - RAS</em>. Título B. ISBN: 978-958-8491-51-6',
       tipo: 'Norma',
       link:
         'https://drive.google.com/file/d/1TXFLUj7uDpy-X0ArOKKFqfXC6jRgMll0/view?usp=sharing',
@@ -310,72 +310,72 @@ export default {
   referencias: [
     {
       referencia:
-        'Cárdenas, D. y Patiño, F. (2010). Estudios y diseños definitivos del sistema de agua potable de la comunidad de Tutucán, cantón paute, provincia del Azuay. Facultad de ingeniería civil. México.',
+        'Cárdenas, D. y Patiño, F. (2010). <em>Estudios y diseños definitivos del sistema de agua potable de la comunidad de Tutucán, cantón paute, provincia del Azuay</em>. Facultad de ingeniería civil. México.',
       link: 'http://dspace.ucuenca.edu.ec/bitstream/123456789/725/1/ti853.pdf',
     },
     {
       referencia:
-        'Dourojeanni, Axel. (1993). Evolución de la gestión integral de cuencas en América Latina y el Caribe. Chile.',
+        'Dourojeanni, Axel. (1993). <em>Evolución de la gestión integral de cuencas en América Latina y el Caribe</em>. Chile.',
       link: '',
     },
     {
       referencia:
-        'García, W. (2019). El sistema complejo de la cuenca hidrográfica. Universidad Nacional de Medellín.',
+        'García, W. (2019). <em>El sistema complejo de la cuenca hidrográfica</em>. Universidad Nacional de Medellín.',
       link:
         'https://vdocuments.pub/sistema-complejo-de-la-cuenca-hidrografica-.html?page=1',
     },
     {
       referencia:
-        'Instituto Colombiano de normas técnicas y certificación [ICONTEC]. (2007). NTC 3705, Medición de flujo de agua en canal abierto con vertederos de placa fina.',
+        'Instituto Colombiano de normas técnicas y certificación [ICONTEC]. (2007). NTC 3705, <em>Medición de flujo de agua en canal abierto con vertederos de placa fina</em>.',
       link: '',
     },
     {
       referencia:
-        'Instituto Nacional de Salud [INS]. (2011). Documentación SIVICAP.',
+        'Instituto Nacional de Salud [INS]. (2011). <em>Documentación SIVICAP</em>.',
       link: 'https://www.ins.gov.co/sivicap/Documentacin%20SIVICAP',
     },
     {
       referencia:
-        'Jiménez, J. M. (s.f.). Manual para el diseño de Sistemas de agua potable y Alcantarillado sanitario.',
+        'Jiménez, J. M. (s.f.). <em>Manual para el diseño de Sistemas de agua potable y Alcantarillado sanitario</em>.',
       link:
         'https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf',
     },
     {
       referencia:
-        'Ministerio de Desarrollo Económico. (2017). Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico. [RAS].',
+        'Ministerio de Desarrollo Económico. (2017). <em>Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico</em>. [RAS].',
       link:
         'https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras',
     },
     {
       referencia:
-        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). Política Nacional para la Gestión Integral del Recurso Hídrico. Bogotá, D.C. Colombia: Ministerio de Ambiente, Vivienda y Desarrollo Territorial.p.124.',
+        'Ministerio de Ambiente, Vivienda y Desarrollo Territorial. (2010). <em>Política Nacional para la Gestión Integral del Recurso Hídrico</em>. Bogotá, D.C. Colombia: Ministerio de Ambiente, Vivienda y Desarrollo Territorial.p.124.',
       link:
         'https://www.minambiente.gov.co/documento-entidad/politica-nacional-para-la-gestion-integral-del-recurso-hidrico/',
     },
     {
       referencia:
-        'Mott, R. (2006). Mecánica de fluidos. Sexta edición. Pearson Education.',
+        'Mott, R. (2006). <em>Mecánica de fluidos</em>. Sexta edición. Pearson Education.',
       link: '',
     },
     {
       referencia:
-        'Nadal R., Eugenio. (1993). Introducción al análisis de la planificación hidrológica. Madrid: MOPT.',
+        'Nadal R., Eugenio. (1993). <em>Introducción al análisis de la planificación hidrológica</em>. Madrid: MOPT.',
       link: '',
     },
     {
       referencia:
-        'Territoriocartv. (2011). Video institucional Car Cuencas hidrográficas. [Video]. YouTube',
+        'Territoriocartv. (2011). <em>Video institucional Car Cuencas hidrográficas</em>. [Video]. YouTube',
       link: 'https://www.youtube.com/watch?v=6vTI_HD36IY&t=1s',
     },
     {
       referencia:
-        'Organización Mundial de la Salud [OMS]. (2011). Guías para la calidad del agua de consumo humano. Cuarta edición.',
+        'Organización Mundial de la Salud [OMS]. (2011). <em>Guías para la calidad del agua de consumo humano</em>. Cuarta edición.',
       link:
         'https://apps.who.int/iris/bitstream/handle/10665/272403/9789243549958-spa.pdf?ua=1',
     },
     {
       referencia:
-        'Sonsón Televisión Oficial. (2018). Planes de ordenación y manejo de cuencas hidrográficas. [Video]. YouTube.',
+        'Sonsón Televisión Oficial. (2018). <em>Planes de ordenación y manejo de cuencas hidrográficas</em>. [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=ZJMiCiXJKQQ',
     },
   ],
@@ -394,6 +394,44 @@ export default {
           centro:
             'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
+        {
+          nombre: 'Xiomara Becerra Aldana',
+          cargo: 'Instructora Ambiental',
+          centro: 'Regional Distrito Capital - Centro de gestión industrial',
+        },
+        {
+          nombre: 'Jesús Ricardo Munevar Arias',
+          cargo: 'Instructor',
+          centro: 'Regional Distrito Capital - Centro de gestión industria',
+        },
+        {
+          nombre: 'Lubin Andrés Hernández Sanabria',
+          cargo: 'Instructor',
+          centro: 'Regional Distrito Capital - Centro de gestión industrial',
+        },
+        {
+          nombre: 'Javier Ricardo Luna Pineda',
+          cargo: 'Diseñador Instruccional',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Silvia Milena Sequeda Cárdenas',
+          cargo: 'Evaluador Instruccional',
+          centro: 'Regional Distrito Capital - Centro de diseño y metrología',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Distrito Capital - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Adriana lozano Zapata',
+          cargo: 'Revisora de Estilo',
+          centro:
+            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
       ],
     },
     {
@@ -410,6 +448,12 @@ export default {
           cargo: 'Metodología para la formación virtual',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
+        },
+        {
+          nombre: 'Liliana Victoria Morales Gualdrón',
+          cargo: 'Responsable Línea de producción Distrito Capital -2023',
+          centro:
+            'Centro de Gestión De Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
       ],
     },

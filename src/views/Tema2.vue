@@ -23,7 +23,7 @@
           :style="{'background-image': `url(${require('@/assets/curso/tema2/2.png')})`}"
         )
         .bloque-texto-g__texto.p-4
-          p.mb-0 "el conjunto de instalaciones que conducen el agua desde su captación en la fuente de abastecimiento hasta la acometida domiciliaria en el punto de empate con la instalación interna del predio a servir y comprende los siguientes componentes: la(s) fuente(s) de abastecimiento, la(s) captación(es) de agua superficial y/o agua subterránea y sus anexidades, la(s) aducción(es) y conducción(es), las redes de distribución, las estaciones de bombeo y los tanques de compensación" (p.43).
+          p.mb-0 "El conjunto de instalaciones que conducen el agua desde su captación en la fuente de abastecimiento hasta la acometida domiciliaria en el punto de empate con la instalación interna del predio a servir y comprende los siguientes componentes: la(s) fuente(s) de abastecimiento, la(s) captación(es) de agua superficial y/o agua subterránea y sus anexidades, la(s) aducción(es) y conducción(es), las redes de distribución, las estaciones de bombeo y los tanques de compensación" (p.43).
       .cajon.color-secundario.p-4.mt-4.cajon1(style="background-color:#F7F8FB;")
         p.mb-0(data-aos="fade-up") Con base en lo anterior, se puede inferir que el término abastecimiento de agua hace referencia a todo sistema que se construye para garantizar el suministro de agua potable para consumo humano.
     
@@ -34,7 +34,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" alt="Cuencas hidrográficas")
+              img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" alt="Imagen decorativa")
           .tarjeta.color-acento-botones.p-3(x="60%" y="30%" numero="1" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 1. Abastecimiento de agua
             p.mb-0(style="color:#000;") El abastecimiento de agua es un pilar de desarrollo para los países, porque garantizar el acceso y la calidad de este recurso, se traduce en mejoramiento de la calidad de vida, salud y progreso de la población.
@@ -108,7 +108,7 @@
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema2/10.png" alt="Áreas hidrográficas o macrocuencas")
+            img(src="@/assets/curso/tema2/10.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.mb-5 Áreas hidrográficas o macrocuencas
               p.mb-0(style="font-size:13px;") De estas zonas se debe mantener información documentada de recursos naturales renovables, y en especial, de los cauces principales de los ríos, haciendo énfasis en la calidad, cantidad y regularidad de las fuentes hídricas. Los planes estratégicos se formularán a escala 1: 500.000.
@@ -116,21 +116,21 @@
         .h-100
           figure.cont_image1
             .indicador--click(v-if="mostrarIndicador")
-            img(src="@/assets/curso/tema2/11.png" alt="Zonas hidrográficas")
+            img(src="@/assets/curso/tema2/11.png" alt="Imagen decorativa")
             .cont_image1__description.p-3.cont_image2__description
               h5.mb-5 Zonas hidrográficas
               p.mb-0(style="font-size:13px;") Es importante aclarar que el instrumento de planificación de las zonas hidrográficas en el país es el denominado Programa nacional de monitoreo del recurso hídrico, en el cual se encuentran todas las acciones planeadas, a realizar en las cuencas hidrográficas (Olaya, E. y Tosse, L., 2014. p.16).
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema2/12.png" alt="Cuencas")
+            img(src="@/assets/curso/tema2/12.png" alt="Imagen decorativa")
             .cont_image1__description.p-3
               h5.mb-5 Cuencas
               p.mb-0(style="font-size:13px;") Las cuencas tributarias de zonas o regiones hidrológicas serán el objeto de la formulación, implementación y ejecución de los Planes de Ordenación y Manejo de cuencas (POMCA). 
       .col-xl.mb-4.mb-xl-0.col-10
         .h-100
           figure.cont_image1
-            img(src="@/assets/curso/tema2/13.png" alt="Microcuenca y acuíferos")
+            img(src="@/assets/curso/tema2/13.png" alt="Imagen decorativa")
             .cont_image1__description.p-3.cont_image2__description
               h5.mb-5 Microcuenca y acuíferos
               p.mb-0(style="font-size:13px;") Las microcuencas son de vital importancia para el desarrollo de comunidades, pueblos y por ende del país. Su deterioro por su mal manejo, es cada día mayor.
@@ -152,10 +152,10 @@
 
     .col-lg-10.m-auto.mt-5.col-10
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;")
-        .col-auto.p-0.d-flex.align-items-center
+        .col-auto.p-md-0.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;" alt="Imagen decorativa")
-        .col.p-0
+        .col.p-md-0
           .p-4.ps-2
             h4(data-aos="fade-up") Importante
             p(data-aos="fade-up") Para ampliar la información consulte Norma Técnicas Colombianas [NTC] 5043, de la calidad de la información geográfica y NTC 4611 sobre medidas de la información geográfica.
@@ -164,7 +164,7 @@
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En el siguiente mapa conceptual, puede observar los tipos de caracterización de una cuenca:
 
     figure.mt-5
-      img(src="@/assets/curso/tema2/16.svg" data-aos="zoom-in-up" alt="Características de una cuenca")
+      img(src="@/assets/curso/tema2/16.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
 
     Separador.mt-5
 
@@ -273,11 +273,11 @@
 
     .cont_2_3.mt-5.pb-5
       .col-lg-10.m-auto
-        .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;")
-          .col-auto.p-0.d-flex.align-items-center
+        .row.m-auto(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;")
+          .col-auto.p-md-0.d-flex.align-items-center
             figure
               img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;position:relative;" alt="Imagen decorativa")
-          .col.p-0
+          .col.p-md-0
             .p-4.ps-2
               h4(data-aos="fade-up") Para ampliar la información se sugiere que se dirija al material de apoyo y analice los documentos:
               ul.fa-ul.mt-3
@@ -294,7 +294,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg" alt="Imagen decorativa")
             .anexo__texto
-              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia ]
+              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia ].
         .col-lg-6
           a.anexo.bg-white.h-100(href="https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
             .anexo__icono
@@ -335,10 +335,10 @@
     
     .col-lg-6.m-auto.mt-5
       .row(style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;")
-        .col-auto.p-0.d-flex.align-items-center
+        .col-auto.p-md-0.d-flex.align-items-center
           figure
             img(src="@/assets/curso/tema2/15.png" data-aos="fade-right" style="margin-left: -47px;width: 100px;max-width: 100px;position:relative;" alt="Imagen decorativa")
-        .col.p-0
+        .col.p-md-0
           .p-4.ps-2
             h4(data-aos="fade-up") Para ampliar la información consulte:
             ul.fa-ul.mt-3.mb-0
@@ -425,7 +425,7 @@
         h5.d-block Figura 2
         span Títulos del RAS 2017
       figure.mt-4
-        img(src="@/assets/curso/tema2/32.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema2/32.svg" data-aos="zoom-in-up" alt="Títulos del RAS 2017")
     
     .col-lg-10.m-auto.mt-5
       .row.p-4(style="background: rgb(70,164,224);background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);border-radius:25px;")
@@ -444,7 +444,7 @@
     
     .col-lg-10.m-auto.mt-5
       .titulo-sexto.color-acento-botones
-        h5.d-block Figura 3
+        h5.d-block Tabla 1
         span Guías para implementación del RAS
 
       .tabla-a.color-secundario.mt-4 

@@ -14,7 +14,7 @@
           p.mb-0(data-aos="fade-up") Como resultado de las problemáticas mencionadas, es posible la materialización de riesgos como interrupciones en el suministro de agua y enfermedad de los usuarios causadas generalmente por la exposición a agentes contaminantes de carácter microbiológico.
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema1/1.png" data-aos="fade-left" style="max-width:450px;display:inline;")
+          img(src="@/assets/curso/tema1/1.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     p.mt-5.fw-bold.text-center(data-aos="fade-up") Puede ampliar la información, lo invitamos a ver el siguiente video:
 
