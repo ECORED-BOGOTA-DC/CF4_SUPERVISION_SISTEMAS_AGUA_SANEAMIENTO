@@ -237,7 +237,7 @@ export default {
         'Ministerio de Vivienda, Ciudad y Territorio. (2010). <em>Reglamento Técnico del Sector de Agua Potable y Saneamiento Básico - RAS</em>. Título B. ISBN: 978-958-8491-51-6',
       tipo: 'Norma',
       link:
-        'https://drive.google.com/file/d/1TXFLUj7uDpy-X0ArOKKFqfXC6jRgMll0/view?usp=sharing',
+        'https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras',
     },
   ],
   glosario: [

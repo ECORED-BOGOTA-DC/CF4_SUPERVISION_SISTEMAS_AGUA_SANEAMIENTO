@@ -697,7 +697,7 @@
             h4(data-aos="fade-up") Importante
             p.mb-0(data-aos="fade-up") Para más detalle sobre sistemas de captación se recomienda revisar el siguiente material complementario:
             p.mb-0(data-aos="fade-up") - Reglamento técnico del sector de Agua potable y Saneamiento básico [RAS], Título B.
-            a(href="https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf" target="_blank" style="color:#3076B6;word-break:break-all;" data-aos="fade-up") https://www.uv.mx/ingenieriacivil/files/2013/09/Manual-de-Diseno-para-Proyectos-de-Hidraulica.pdf
+            a(href="https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras" target="_blank" style="color:#3076B6;word-break:break-all;" data-aos="fade-up") https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras
 
 
 
