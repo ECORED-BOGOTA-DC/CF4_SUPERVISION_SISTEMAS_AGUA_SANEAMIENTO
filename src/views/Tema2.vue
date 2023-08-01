@@ -34,7 +34,7 @@
         ImagenInfografica.color-primario
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" alt="Imagen decorativa")
+              img(src='@/assets/curso/tema2/4.png' data-aos="zoom-in-up" alt="Muestra las cuencas hidrográficas., sistema fluvial, afluente, cabecera del rio, valle, llanura de inundación, colina, rápidos, meandro, meandro abandonado, río, confluencia y fuente.")
           .tarjeta.color-acento-botones.p-3(x="60%" y="30%" numero="1" style="background-color:#fff;border:2px #3076B6 solid;border-radius:20px;")
             .h5.mb-2(style="color:#3076B6;") 1. Abastecimiento de agua
             p.mb-0(style="color:#000;") El abastecimiento de agua es un pilar de desarrollo para los países, porque garantizar el acceso y la calidad de este recurso, se traduce en mejoramiento de la calidad de vida, salud y progreso de la población.
@@ -90,7 +90,7 @@
         h5.d-block Figura 1
         span Componentes de un sistema de cuenca hidrográfica
       figure
-        img(src="@/assets/curso/tema2/8.svg" data-aos="zoom-in-up" alt="Componentes de un sistema de cuenca hidrográfica")
+        img(src="@/assets/curso/tema2/8.svg" data-aos="zoom-in-up" alt="Componentes de un sistema de cuenca hidrográfica, en un diagrama de flujo.")
         figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: García, W. (s.f.) El sistema complejo de la cuenca hidrográfica. p.5. [Diagrama].
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:400px;" data-aos="fade-up")
@@ -164,7 +164,7 @@
     p.mt-5.text-center.fw-bold(data-aos="fade-up") En el siguiente mapa conceptual, puede observar los tipos de caracterización de una cuenca:
 
     figure.mt-5
-      img(src="@/assets/curso/tema2/16.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+      img(src="@/assets/curso/tema2/16.svg" data-aos="zoom-in-up" alt="Muestra la caracterización de una cuenca que puede ser biofísica, socioeconómica y cultural, político administrativa y funcional")
 
     Separador.mt-5
 
@@ -425,7 +425,7 @@
         h5.d-block Figura 2
         span Títulos del RAS 2017
       figure.mt-4
-        img(src="@/assets/curso/tema2/32.svg" data-aos="zoom-in-up" alt="Títulos del RAS 2017")
+        img(src="@/assets/curso/tema2/32.svg" data-aos="zoom-in-up" alt="Muestra los títulos del RAS 2017 , desde el A hasta el L Título A  Aspectos generales de los sistemas de agua potable y saneamiento básico.  Título B  Sistemas de acueducto.  Título C  Sistemas de potabilización.  Título D  Sistemas de recolección y evacuación de aguas residuales domésticas y aguas lluvias.  Título E  Tratamiento de aguas residuales.  Título F  Sistemas de aseo urbano.  Título G  Aspectos complementarios.  Título H  Compendio de la normatividad técnica y jurídica del sector de agua potable y saneamiento básico y sus actividades complementarias.  Título I  Componente ambiental para los sistemas de acueducto, alcantarillado y aseo.  Título J  Alternativas tecnológicas en agua y saneamiento para el sector rural.  Título K  Gestión del riesgo en sistemas de acueducto, alcantarillado y aseo, conforme al reglamento técnico de agua y saneamiento RAS.  Título L  Instalaciones hidráulicas y sanitarias al interior de la vivienda.")
     
     .col-lg-10.m-auto.mt-5
       .row.p-4(style="background: rgb(70,164,224);background: linear-gradient(180deg, rgba(70,164,224,1) 0%, rgba(34,98,156,1) 100%);border-radius:25px;")

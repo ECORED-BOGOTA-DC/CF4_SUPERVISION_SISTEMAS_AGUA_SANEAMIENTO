@@ -67,11 +67,11 @@
             .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
               p La presión actúa de modo uniforme en todas las direcciones de un volumen pequeño de fluido.
               figure.mt-3.text-center
-                img(src='@/assets/curso/tema3/10.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
+                img(src='@/assets/curso/tema3/10.png' style="max-width:450px;display:inline;" alt="Representa un volumen pequeño de fluido")
             .col-lg-6(style="place-self:center;")
               p En un fluido confinado por fronteras sólidas, la presión actúa de manera perpendicular a la pared.
               figure.mt-3.text-center
-                img(src='@/assets/curso/tema3/11.png' style="max-width:450px;display:inline;" alt="Imagen decorativa")
+                img(src='@/assets/curso/tema3/11.png' style="max-width:450px;display:inline;" alt="Representación de un fluído confinado por fronteras sólidas.")
       .row.col-xl-11.m-auto(titulo="6. Tasa de flujo")
         .col-lg-7.mb-4.mb-lg-0
           p La tasa de flujo permite expresar la cantidad de fluido en función del tiempo. Mott (2006) indica que se pueden emplear tres términos diferentes:
@@ -166,7 +166,7 @@
 
     .col-lg-6.m-auto.mt-5
       figure.text-center
-        img(src="@/assets/curso/tema3/25.svg" data-aos="zoom-in-up" style="max-width:450px;display:inline;" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema3/25.svg" data-aos="zoom-in-up" style="max-width:450px;display:inline;" alt="Sistemas de accionamiento hidráulico")
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:550px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Conservación de la energía - Ecuación de Bernoulli
@@ -312,7 +312,7 @@
         h5.d-block Figura 3
         span Área de la sección transversal
       figure
-        img(src="@/assets/curso/tema3/35.png" data-aos="zoom-in-up" alt="Área de la sección transversal")
+        img(src="@/assets/curso/tema3/35.png" data-aos="zoom-in-up" alt="Representa el área de la sección transversal")
         figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Organización Meteorológica Mundial, OMM. (2011). Vista del área de una cuenca por sección transversal. [Ilustración]. p. 1.5-5.
     
     p.mt-5(data-aos="fade-up") La profundidad del flujo en la sección transversal se mide en las verticales mediante una varilla o hilo de sondeo. Al tiempo que se mide la profundidad, se efectúan observaciones de la velocidad mediante un molinete en uno o más puntos de la vertical. Las anchuras, profundidades y velocidades medidas permiten calcular el caudal para cada segmento de la sección transversal. La suma de estos caudales parciales será el caudal total (OMM, 2011).
@@ -333,7 +333,7 @@
             h5.d-block Figura 4
             span Medición de la velocidad de flujo
           figure
-            img(src="@/assets/curso/tema3/36.png" data-aos="zoom-in-up" alt="Medición de la velocidad de flujo")
+            img(src="@/assets/curso/tema3/36.png" data-aos="zoom-in-up" alt="Representa la medición de la velocidad de flujo")
             figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#fff;") Fuente: Protocolo de monitoreo y seguimiento del agua 2021
       div(numero="6" titulo="Aforo ADCP (<em>Acoustic Doppler Current Profiler</em>)") 
         p  Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permitan el desplazamiento horizontal del equipo para medir el caudal.
@@ -345,7 +345,7 @@
             h5.d-block Figura 5
             span Configuración típica de una medición con un instrumento de efecto Doppler
           figure
-            img(src="@/assets/curso/tema3/37.png" data-aos="zoom-in-up" alt="Configuración típica de una medición con un instrumento de efecto Doppler")
+            img(src="@/assets/curso/tema3/37.png" data-aos="zoom-in-up" alt="Representa la configuración de una medición con instrumento de efecto Doppler")
             figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#fff;") Fuente: OMM. (2011). pp.1.5-21. Medición con instrumento doppler. [Ilustración].
         p.mt-4 Cuando el sonido enviado por el ADCP llega a los reflectores, este se desplaza a una mayor frecuencia debido al efecto Doppler; este desplazamiento frecuencial es proporcional a la velocidad relativa entre el ADCP y los reflectores. Parte de este sonido desplazado es reflejado hacia el ADCP, donde se recibe desplazado una segunda vez. Los archivos generados por el equipo pueden llevarse las gráficas a impresión a Excel mediante el software del equipo, así como la tabla de trayectos para plotear el aforo.
     
@@ -360,7 +360,7 @@
           h5.d-block Figura 6
           span Aforo volumétrico
         figure
-          img(src="@/assets/curso/tema3/38.svg" data-aos="zoom-in-up" alt="Aforo volumétrico")
+          img(src="@/assets/curso/tema3/38.svg" data-aos="zoom-in-up" alt="Representa el aforo volumétrico")
           figcaption.p-3.text-center.fw-normal.mt-4(style="background-color:#E8E8E8;") Fuente: Ideam. (2006). Citado en #[em Protocolo de monitoreo del agua]. (2017). Método aforo volumétrico. p. 184. [Ilustración].
     
     .cajon.color-acento-contenido.p-4.mt-5(style="background-color:#E0F4FE;")

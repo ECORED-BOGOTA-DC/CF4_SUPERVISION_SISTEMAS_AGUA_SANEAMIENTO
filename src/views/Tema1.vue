@@ -28,7 +28,7 @@
 
     .cont_gradiente1
       figure
-        img(src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(Src="@/assets/curso/tema1/3.svg" data-aos="zoom-in-up" alt="¿Considera que el agua que consume en su hogar debe o debería cumplir con alguna característica en particular? ¿Es posible que las características del agua cambien desde la captación hasta que llega a su hogar? ¿Qué se puede hacer para saber si el agua que se está suministrando cumple con las características para consumo humano? ¿Es posible que los hábitos y conductas de las personas puedan tener algún tipo de repercusión al momento de usar el agua? Si fuera necesario modificar los hábitos y conductas de un determinado grupo frente al uso del agua, ¿qué haría para lograr este cambio y cómo lo realizaría?")
 
         
 
