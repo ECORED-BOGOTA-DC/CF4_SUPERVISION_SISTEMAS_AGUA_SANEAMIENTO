@@ -294,7 +294,7 @@
             .anexo__icono
               img(src="@/assets/template/icono-pdf.svg" alt="Imagen decorativa")
             .anexo__texto
-              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia ].
+              p.mb-0(style="color:#12263F;") #[strong(style="color:#12263F;") Anexo.] Instituto de Hidrología, Meteorología y Estudios Ambientales (2004). #[em(style="color:#12263F;") Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia].
         .col-lg-6
           a.anexo.bg-white.h-100(href="https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
             .anexo__icono
