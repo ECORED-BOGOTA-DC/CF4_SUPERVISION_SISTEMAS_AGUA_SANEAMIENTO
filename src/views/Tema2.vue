@@ -81,7 +81,7 @@
     p.mt-5.text-center.fw-bold(data-aos="fade-up") Dentro de esas interacciones que se pueden dar, la cuenca hidrográfica es determinada como:
 
     figure.mt-5
-      img(src="@/assets/curso/tema2/7.svg" data-aos="zoom-in-up" alt="Imagen decorativa")
+      img(src="@/assets/curso/tema2/7.svg" data-aos="zoom-in-up" alt="a) Un área que es fuente de recursos hidráulicos: en la cual existe un manejo planificado de los recursos naturales y de la preservación del ecosistema como un complemento de la acción de administración del agua (Nadal, 1993, Citado en García, W. s.f. p.3).  b) Un espacio ocupado por un grupo humano: que genera una demanda sobre la oferta de los recursos naturales renovables y realiza transformaciones del medio (Dourojeanni, 1994, Citado en García, W. s.f. p.3).  c) Un sistema organizado de relaciones complejas, tanto internas como externas: es un sistema contenido dentro de otro sistema (ambiente), constituido por las interacciones de otros subsistemas (biofísico, social, económico, etc.), cuyo fin principal es producir bienestar a la sociedad que la gobierna (cantidad y calidad de agua, energía, insumos, alimentos, recreación, etc.) (García, W. s.f. p.3).")
 
     p.mt-5.fw-bold(data-aos="fade-up") Teniendo en cuenta lo anteriormente descrito, según García (s.f.), las cuencas hidrográficas se interrelacionan con sus componentes elementales de la siguiente forma:
 
