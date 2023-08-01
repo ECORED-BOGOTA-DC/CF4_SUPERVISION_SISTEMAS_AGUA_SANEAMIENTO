@@ -449,7 +449,7 @@
 
       .tabla-a.color-secundario.mt-4 
         table(alt="Equipos empleados según método de aforo")
-          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") Fuente: Ideam. (2017). Equipos para medición de caudal. p. 191. [Tabla]. #[br] #[a(href="http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf" target="_blank" style="color:#3076B6;word-break:break-all;") http://documentacion.ideam.gov.co/openbiblio/bvirtual/021172/Protocoloparaelmonitoreoyseguimientodelagua.pdf]
+          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") Fuente: Ideam. (2017). Equipos para medición de caudal. p. 191. [Tabla].
           thead
             tr(style="background-color:#DBEFFC;")
               th.p-4(colspan="2") Métodos
