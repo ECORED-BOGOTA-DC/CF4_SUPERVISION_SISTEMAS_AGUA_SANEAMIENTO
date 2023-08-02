@@ -449,7 +449,7 @@
 
       .tabla-a.color-secundario.mt-4 
         table(alt="Equipos empleados según método de aforo")
-          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") Instituto de hidrología, meteorología y estudios ambientales [IDEAM]. (2021). Protocolo de monitoreo y seguimiento del agua. #[br] #[a(href="http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/023773.pdf" target="_blank" style="color:#3076B6;word-break:break-all;") http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/023773.pdf]
+          caption.text-center.p-3.mt-4.fw-normal(style="background-color:#E8E8E8;") IInstituto de Hidrología, Meteorología y Estudios Ambientales - Ideam. (2021). Protocolo de monitoreo y seguimiento del agua. Ideam.   #[br] #[a(href="http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/023773.pdf" target="_blank" style="color:#3076B6;word-break:break-all;") http://documentacion.ideam.gov.co/openbiblio/bvirtual/023773/023773.pdf]
           thead
             tr(style="background-color:#DBEFFC;")
               th.p-4(colspan="2") Métodos
