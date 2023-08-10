@@ -182,9 +182,6 @@
                 | Alistar reactivos y preservantes.
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                | Alistar los reactivos y preservantes. 
-              li.mb-2(data-aos="fade-up")
-                i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
                 | Rotular y garantizar que se mantengan en condiciones aptas.
               li.mb-2(data-aos="fade-up")
                 i.fas.fa-check-circle.fa-li(style="color:#FFA031;")

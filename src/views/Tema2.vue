@@ -282,11 +282,9 @@
               h4(data-aos="fade-up") Para ampliar la información se sugiere que se dirija al material de apoyo y analice los documentos:
               ul.fa-ul.mt-3
                 li.mb-3(data-aos="fade-up")
-                  i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                  | Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia del Ideam (2004).
+                  a(href="http://corponarino.gov.co/expedientes/documentacion/ayudaa/guiadecuenca2008.pdf" target="_blank") #[i.fas.fa-check-circle.fa-li(style="color:#FFA031;")] Guía técnico científica para la ordenación y manejo de cuencas hidrográficas en Colombia del Ideam (2004).
                 li(data-aos="fade-up")
-                  i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
-                  | Guía técnica para la formulación de los planes de ordenación y manejo de cuencas hidrográficas de Olaya, E. y Tosse, L., Ministerio de Ambiente y Desarrollo Sostenible (2014).
+                  a(href="https://www.minambiente.gov.co/index.php/gestion-integral-del-recurso-hidrico/direccion-integral-de-recurso-hidrico/politica-nacional-para-la-gestion-integral-del-recurso-hidrico" target="_blank") #[i.fas.fa-check-circle.fa-li(style="color:#FFA031;")] Guía técnica para la formulación de los planes de ordenación y manejo de cuencas hidrográficas de Olaya, E. y Tosse, L., Ministerio de Ambiente y Desarrollo Sostenible (2014).
       .row.mt-5.col-lg-11.m-auto(@mouseover="mostrarIndicador2 = false")
         .col-lg-6.mb-4.mb-lg-0
           a.anexo.bg-white.h-100(href="http://corponarino.gov.co/expedientes/documentacion/ayudaa/guiadecuenca2008.pdf" target="_blank" style="background-color:#F6F6F6;border-radius:20px;box-shadow:rgba(0, 0, 0, 0.1) 0px 5px 9px 0px;position:relative;" data-aos="fade-up")
@@ -434,7 +432,7 @@
             img(src="@/assets/curso/tema2/33.svg" data-aos="fade-right" style="display:inline;max-width:100px;" alt="Imagen decorativa")
         .col-lg-9.col-md-6.mb-4.mb-md-0(style="place-self:center;")
           h4.text-white(data-aos="fade-up") Títulos del RAS
-          p.text-white.mb-0(data-aos="fade-up") Para consultar cada uno de los títulos se puede dirigir al Ministerio de Vivienda, en la siguiente ruta: #[br] Ministerio de Vivienda. Reglamento técnico del sector Agua potable y Saneamiento, y seleccione el título que desea consultar. 
+          p.text-white.mb-0(data-aos="fade-up") Para consultar cada uno de los títulos se puede dirigir al Ministerio de Vivienda, en la siguiente ruta.
         .col-lg-2.col-md-3.text-center(style="place-self:center;")
           a.boton.color-primario(href="https://www.minvivienda.gov.co/viceministerio-de-agua-y-saneamiento-basico/reglamento-tecnico-sector/reglamento-tecnico-del-sector-de-agua-potable-y-saneamiento-basico-ras" target="_blank" type="application/pdf")
             span Ir a página

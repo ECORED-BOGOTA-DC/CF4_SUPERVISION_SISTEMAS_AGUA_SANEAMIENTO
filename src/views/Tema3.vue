@@ -114,7 +114,7 @@
           .col-lg-3.col-md-4(style="place-self:center;")
             figure.text-center
               img(src='@/assets/curso/tema3/18.svg' data-aos="fade-left" style="max-width:200px;display:inline;" alt="Imagen decorativa")
-        p.mt-4(data-aos="fade-up") El peso específico se representa por la letra griega #[em y] (gamma), y su unidad son newtons por metro cúbico (N/m3).
+        p.mt-4(data-aos="fade-up") El peso específico se representa por la letra griega #[em y] (gamma), y su unidad son newtons por metro cúbico (N/m#[sup 3]).
         p.mt-4(data-aos="fade-up") Para el caso de la gravedad específica, usaremos como fluido de referencia el agua a 4°C, y puede definirse de dos maneras:
         .row.col-lg-10.m-auto.mt-4
           .text-center.col-lg.mb-4.mb-lg-0(style="place-self:center;")
@@ -193,7 +193,7 @@
         p.mt-3(data-aos="fade-up") A la suma de estos tres términos se les conoce como carga total.
       .col-lg-4(style="place-self:center;")
         figure.text-center
-          img(src="@/assets/curso/tema3/27.png" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
+          img(src="@/assets/curso/tema3/27.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
     .p-3.mt-5(style="background-color:#3076B6;border-radius:0px 40px 0px 40px;max-width:450px;" data-aos="fade-up")
       h3.mb-0.text-white.text-center Aplicación de la ecuación de Bernoulli
@@ -257,7 +257,7 @@
     .titulo-segundo
       h2#t_3_3 3.3 Aforo de caudal
     
-    p(data-aos="fade-up") Cuando se abordó el tema de conceptos básicos de hidráulica, se mencionó que la cantidad de un fluido que  atraviesa una sección en un determinado tiempo es conocido como la tasa de flujo. En particular, el flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m3/s.
+    p(data-aos="fade-up") Cuando se abordó el tema de conceptos básicos de hidráulica, se mencionó que la cantidad de un fluido que  atraviesa una sección en un determinado tiempo es conocido como la tasa de flujo. En particular, el flujo volumétrico (Q) es el volumen de un fluido que circula en una sección por unidad de tiempo, y sus unidades son el m#[sup 3]/s.
 
     .row.mt-4
       .col-lg-6.mb-4.mb-lg-0(style="place-self:center;")
@@ -338,7 +338,7 @@
       div(numero="6" titulo="Aforo ADCP (<em>Acoustic Doppler Current Profiler</em>)") 
         p  Se utiliza para medir el caudal en ríos grandes o pequeños, sin rocas grandes que permitan el desplazamiento horizontal del equipo para medir el caudal.
         p.mt-4 Los instrumentos ADCP, basados en el efecto Doppler, pueden instalarse en una embarcación en movimiento. El instrumento mide simultáneamente la velocidad y profundidad del agua y la trayectoria de la embarcación para calcular el caudal. Este método permite calcular el caudal parcial a medida que la embarcación atraviesa el río. El resultado de una medición no es suficiente para proporcionar un valor exacto del flujo/caudal; únicamente proporciona una imagen instantánea del flujo. 
-        p.mt-4 Para conseguir un valor más exacto del caudal del río es importante calcular el promedio de varias travesías. Para calcular el caudal en un emplazamiento se recomienda efectuar, como mínimo, cuatro travesías (OMM, 2011)
+        p.mt-4 Para conseguir un valor más exacto del caudal del río es importante calcular el promedio de varias travesías. Para calcular el caudal en un emplazamiento se recomienda efectuar, como mínimo, cuatro travesías (OMM, 2011).
         p.mt-4 El ADCP utiliza el efecto Doppler, transmitiendo sonido a una frecuencia fija y escuchando los ecos retornados por los reflectores presentes en el agua, como pequeñas partículas o plancton, que reflejan el sonido hacia el ADCP, los cuales se mueven a la misma velocidad horizontal del agua. La siguiente imagen representa una medición mediante el método ADCP:
         .col-lg-8.m-auto.mt-5
           .titulo-sexto.color-acento-botones
