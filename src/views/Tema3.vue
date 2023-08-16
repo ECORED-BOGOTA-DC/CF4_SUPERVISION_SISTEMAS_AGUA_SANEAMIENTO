@@ -178,7 +178,7 @@
         figure.text-center
           img(src="@/assets/curso/tema3/26.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     .row.mt-5
-      .col-lg-8.mb-4.mb-lg-0(style="place-self:center;")
+      .col-lg-7.mb-4.mb-lg-0(style="place-self:center;")
         p.mb-0(data-aos="fade-up") Esta ecuación es conocida como la ecuación de Bernoulli y cada término es una forma de energía, como ya se mencionó. Sin embargo, se debe tener en cuenta que debido a la unidad resultante (m), estos tres términos pueden ser interpretados como altura sobre un nivel de referencia. Mott (2006) indica que, en específico,
         ul.fa-ul.mt-3
           li(data-aos="fade-up")
@@ -191,7 +191,7 @@
             i.fas.fa-check-circle.fa-li(style="color:#FFA031;")
             | v#[sup 2]/2g es la carga de velocidad.
         p.mt-3(data-aos="fade-up") A la suma de estos tres términos se les conoce como carga total.
-      .col-lg-4(style="place-self:center;")
+      .col-lg-5(style="place-self:center;")
         figure.text-center
           img(src="@/assets/curso/tema3/27.svg" data-aos="fade-left" style="max-width:450px;display:inline;" alt="Imagen decorativa")
     
