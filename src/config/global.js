@@ -378,6 +378,11 @@ export default {
         'Sonsón Televisión Oficial. (2018). <em>Planes de ordenación y manejo de cuencas hidrográficas</em>. [Video]. YouTube.',
       link: 'https://www.youtube.com/watch?v=ZJMiCiXJKQQ',
     },
+    {
+      referencia:
+        'Olaya, E y Tosse, L, (2014). Guía técnica para la formulación de los planes de ordenación y manejo de cuencas hidrográficas. Ministerio de ambiente y desarrollo sostenible.',
+      link: 'https://www.andi.com.co/uploads/guia_de_pomcas.pdf',
+    },
   ],
   creditos: [
     {
